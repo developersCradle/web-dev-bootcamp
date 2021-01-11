@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css " integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous
+	">
+
+	<style type="text/css">
+		.pink{
+			background: pink;
+			border: 1px solid purple;
+		}
+		.orange{
+			background: orange;
+			border: 1px dashed red;
+			height: 50px;
+		}
+ 
+	</style>
+	
+	<title>Bootsrap Grid System</title>
+</head>
+<body>
+	<div class="container">
+<!--Bootstrap grid needs to be inside container -->
+
+	<!-- inside row we have 12 units to pick from-->
+	<!-- 4 size large, medium, small, extra small
+	<div class="row">
+		 We are doing half-half split for the row
+		<div class="col-lg-2 pink">COL LG 2</div>
+		<div class="col-lg-8 pink">COL LG 6</div>
+		We could use these 2-units as sidebar
+		<div class="col-lg-2 pink">COL LG 2</div>
+	</div>-->
+<!--
+	<div class="row"> 
+		 if we arrive at medium size, grid element takes 2 units
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+		<div class="col-lg-1 col-md-2 pink">COL1 LG 1</div>
+	</div>
+	-->
+
+	<div class="row">
+		<!-- Large mode each element takes 3 units out of 12
+			medium mode each element takes 3 units out of 12
+			small mode each takes element takes 6 out of 12-->
+			<!--Splitting cell, when big size slipt half half -->
+		<div class="col-lg-3 col-md-3 col-sm-6 pink">
+			<div class="row">
+				<div class="col-lg-6 orange">FIRST HALF</div>
+				<div class="col-lg-6 orange">OTHER HALF</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATE!</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 pink">TOUR DATE!</div>
+		<div class="col-lg-3 col-md-3 col-sm-6 pink">
+			<div class="row">
+				<div class="col-lg-2 orange"></div>
+				<div class="col-lg-2 orange"></div>
+				<div class="col-lg-2 orange"></div>
+				<div class="col-lg-2 orange"></div>
+				<div class="col-lg-2 orange"></div>
+				<div class="col-lg-2 orange"></div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
