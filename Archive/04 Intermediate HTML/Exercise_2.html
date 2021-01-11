@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+<h1>Register</h1>
+
+
+<form>
+	<label for="firstName" >First Name: </label>
+	<input type="text" name="firstName" id="firstName" placeholder="John" required >
+	<label>Last Name: </label>
+	<input type="text" name="lastName" id="lastName" placeholder="Smith" required >
+	
+	<p>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" value="male" id="male">
+		<label for="female">Female</label>
+		<input type="radio" name="gender" value="female" id="female">
+		<label for="other">Other</label>
+		<input type="radio" name="gender" value="other" id="other">
+	</p>
+
+	<!-- name = under what name my data will be send-->
+
+	<div>
+		<label>
+			Email:
+			<input type="email" placeholder="your email" name="email" required>	
+		</label>
+		<label>
+			Password:
+			<input type="password" name="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">	
+		</label>
+	</div>
+
+	<div>
+		<label>
+			Birthday:
+			<select name="moth">
+				<option>Month</option>
+				<!-- if we want to send numerical month over month we use -> 
+					<option value="1">Jan</option>-->
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+			<select month="day">
+				<option>Day</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			</select>
+			<select month="year">
+				<option>Year</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2001</option>
+			</select>		
+		</label>
+	</select>
+	</div>
+
+	<div>
+		<label for="agreed">I agree to the terms and conditions:</label>
+		<input type="checkbox" name="agreed" id="agreed">
+	</div>
+
+
+
+<input type="submit">
+
+</form>
+
+</body>
+</html>

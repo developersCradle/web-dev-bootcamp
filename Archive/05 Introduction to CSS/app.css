@@ -1,0 +1,32 @@
+h1{
+	color: #9600cc;
+	
+	/*
+	border-color: purple;
+	border-width: 5px;
+	border-style:dashed;
+	*/
+	
+	/*Shortcut syntax*/
+	border: 2px solid purple;
+}
+
+/*Border needs 3 variables to work:;
+width
+color
+style
+*/
+
+h4{
+	background: rgb(255,100,80);
+}
+
+body{
+	background: #a7baef;
+
+	/* background
+	background: url(https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0170/2130/rrrrateets_wg_pp_03_shop_preview.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+}

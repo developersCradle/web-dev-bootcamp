@@ -1,49 +1,21 @@
-## The Web Developer Bootcamp
+## The Web Developer Bootcamp 2021
 
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.<br/>
 Mini projects which are worth of showing are bolded in `The Major Projects`.
 
-## Progress
+All course material from JThe Web Developer Bootcamp 2021 by Colt Steele
 
-- [x] 01 - Introduction to this Course
-- [x] 02 - Introduction to Front End Development
-- [x] 03 - Introduction to HTML
-- [x] 04 - Intermediate HTML
-- [x] 05 - Introduction to CSS
-- [x] 06 - Intermediate CSS
-- [x] 07 - Bootstrap
-- [x] 08 - Introduction to JavaScript
-- [x] 09 - Javascript Basics Control Flow
-- [x] 10 - Javascript Basics Functions
-- [x] 11 - Javascript Basics Arrays
-- [ ] 12 - Javascript Basics Objects
-- [ ] 13 - DOM Manipulation
-- [ ] 14 - Advanced DOM Manipulation
-- [ ] 15 - Color Game Project
-- [ ] 16 - Intro to jQuery
-- [ ] 17 - Advanced jQuery
-- [ ] 18 - Todo List Projects
-- [ ] 19 - Project Patatap Clone
-- [ ] 20 - Backend Basics
-- [ ] 21 - The Command Line
-- [ ] 22 - Update this one!
-- [ ] 23 - Update this one!
-- [ ] 24 - Update this one!
-- [ ] 25 - Update this one!
-- [ ] 26 - Update this one!
-- [ ] 27 - Update this one!
-- [ ] 28 - Update this one!
-- [ ] 29 - Update this one!
-- [ ] 30 - Update this one!
-- [ ] 31 - Update this one!
-- [ ] 32 - Update this one!
-- [ ] 33 - Update this one!
-- [ ] 34 - Update this one!
-- [ ] 35 - Update this one!
-- [ ] 36 - Update this one!
-- [ ] 37 - Update this one!
-- [ ] 38 - Update this one!
-- [ ] 39 - Update this one!
+[The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
+
+Insert certificate here when completed
+
+## Progress
+- [x] Section 01 - Course Orientation
+- [ ] Section 02 - An Introduction to Web Development
+- [ ] Section 03 - HTML: The Essentials
+- [ ] Section 04 - HTML: Next Steps & Semantics
+- [ ] Section 05 - HTML: Forms & Tables
+
 
 
 - (update more)
@@ -51,6 +23,9 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 
 
+fix this when times comes
+
+TODO Make git pages when you feel ready
 
 ## The Major Projects
 * Section 03 Exercises

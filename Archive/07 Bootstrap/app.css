@@ -1,0 +1,48 @@
+body
+{
+	background: url(https://images.unsplash.com/photo-1494256997604-768d1f608cac?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=362a7baf8e58eab5f477b13befc0e62a&w=1000&q=80);
+
+	/*Makes image smallest as possible, while still covering w and h of screen(uses strecth as minimal ammount as it can) */
+	background-size: cover;
+	background-position: center;
+	font-family: 'Lato', sans-serif;
+
+}
+
+html
+{
+	/* Makes our html use 100% of the container-> which is our document window*/
+	height: 100%;
+}
+
+#content
+{
+	/*The text-align property specifies the horizontal alignment of text in an element.*/
+	text-align: center;
+	/*Alingn elements in vertical direction*/
+	padding-top: 20%;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 18px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/*Comma just separates different groups where to apply  css */
+h1, h3
+{
+	color: white;
+}
+
+h1
+{
+	/*Font weight 700 is bolded, check google font specs! */
+	font-weight: 700;
+	font-size: 5em;
+}
+
+hr
+{
+	width: 600px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2); 
+}
