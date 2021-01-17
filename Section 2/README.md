@@ -4,6 +4,10 @@ Introduction to web
 
 # What I Learned
 * Internet is global network of networks
-* [trello](https://trello.com/b/0PVRE1XQ/web-developer-bootcamp)
-
-
+* [Trello](https://trello.com/b/0PVRE1XQ/web-developer-bootcamp)
+* HTTP is how we should share resources
+* [What is html/css/js](https://codepen.io/giana/pen/GJMBEv)
+	* Js is verbs on web
+	* Css is adjective on web
+	* Html what is the page on web
+* [VSode](https://code.visualstudio.com/)

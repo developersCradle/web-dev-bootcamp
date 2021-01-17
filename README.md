@@ -3,7 +3,7 @@
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.<br/>
 Mini projects which are worth of showing are bolded in `The Major Projects`.
 
-All course material from JThe Web Developer Bootcamp 2021 by Colt Steele
+All course material from The Web Developer Bootcamp 2021 by Colt Steele
 
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
@@ -15,12 +15,33 @@ Insert certificate here when completed
 - [ ] Section 03 - HTML: The Essentials
 - [ ] Section 04 - HTML: Next Steps & Semantics
 - [ ] Section 05 - HTML: Forms & Tables
-
+- [ ] Section 06 - CSS: The Very Basics
 
 
 - (update more)
 
 
+
+
+## The Major Projects
+* Section 02 Exercises
+    * [1_Exercise]()
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+FROM OLD COURSE FROM HERE ONE
 
 
 fix this when times comes
