@@ -1,9 +1,11 @@
-## The Web Developer Bootcamp 2021
+## The Web Developer Bootcamp 2022
+
+![Web Developer](webDev.PNG)
 
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.<br/>
 Mini projects which are worth of showing are bolded in `The Major Projects`.
 
-All course material from The Web Developer Bootcamp 2021 by Colt Steele
+All course material from The Web Developer Bootcamp 2022 by Colt Steele
 
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
@@ -16,16 +18,20 @@ Insert certificate here when completed
 - [ ] Section 04 - HTML: Next Steps & Semantics
 - [ ] Section 05 - HTML: Forms & Tables
 - [ ] Section 06 - CSS: The Very Basics
+- [ ] Section 07 - 
+- [ ] Section 08 - 
+- [ ] Section 09 - 
+- [ ] Section 10 - 
+- [ ] Section 11 - 
+- [ ] Section 12 - 
+- [ ] Section 13 - 
+- [ ] Section 14 - JavaScript Basics!
 
+- Add more when time comes
 
-- (update more)
-
-
-
-//tutustu github pages
 ## The Major Projects/Exercise
-* Section 02 Exercises
-    * [1_Exercise](https://rawcdn.githack.com/developersCradle/web-dev-bootcamp/215ab69623ede8022af9ec3b9c915a15c2b4196c/Section 3/coding_exercise_pangoli_1.html)
+* Section 03 Exercises
+    * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
     
     
 
@@ -41,12 +47,8 @@ Insert certificate here when completed
 
 
 
-FROM OLD COURSE FROM HERE ONE
+FROM OLD COURSE FROM HERE ONE, rawgit got depricated, some links migreted to html preview and work
 
-
-fix this when times comes
-
-TODO Make git pages when you feel ready
 
 ## The Major Projects
 * Section 03 Exercises
@@ -62,12 +64,12 @@ TODO Make git pages when you feel ready
 
 * Section 06 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/a7c4e76a/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/board.html)
-    * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery** (todo add oppening of image)
-    * [3_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/blog.html) **<-- Simple blog**
+    * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery** (todo add oppening of image)
+    * [3_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/blog.html) **<-- Simple blog**
 
 * Section 07 Exercises
-	* [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootsrap**
-	* [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/07%20Bootstrap/index.html) **<-- Startup page with Bootstrap**
+	* [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootsrap**
+	* [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/index.html) **<-- Startup page with Bootstrap**
 
 
 * Section 08 Exercises
@@ -82,3 +84,6 @@ TODO Make git pages when you feel ready
     
 ## Files
 *   [Slides](https://webdev.slides.com/coltsteele/)
+
+
+Kaiken tämän jälkeen tee github pages
