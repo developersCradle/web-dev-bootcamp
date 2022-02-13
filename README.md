@@ -11,8 +11,8 @@ Insert certificate here when completed
 
 ## Progress
 - [x] Section 01 - Course Orientation
-- [ ] Section 02 - An Introduction to Web Development
-- [ ] Section 03 - HTML: The Essentials
+- [X] Section 02 - An Introduction to Web Development
+- [X] Section 03 - HTML: The Essentials
 - [ ] Section 04 - HTML: Next Steps & Semantics
 - [ ] Section 05 - HTML: Forms & Tables
 - [ ] Section 06 - CSS: The Very Basics
@@ -22,10 +22,10 @@ Insert certificate here when completed
 
 
 
-
-## The Major Projects
+//tutustu github pages
+## The Major Projects/Exercise
 * Section 02 Exercises
-    * [1_Exercise]()
+    * [1_Exercise](https://rawcdn.githack.com/developersCradle/web-dev-bootcamp/215ab69623ede8022af9ec3b9c915a15c2b4196c/Section 3/coding_exercise_pangoli_1.html)
     
     
 
