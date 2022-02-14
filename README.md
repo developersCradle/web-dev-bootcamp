@@ -10,11 +10,11 @@ All course material from The Web Developer Bootcamp 2022 by Colt Steele
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
 Insert certificate here when completed
-
+https://github.com/developersCradle/java-programming-masterclass/tree/master/Section%2011
 ## Progress
 - [x] Section 01 - Course Orientation
-- [X] Section 02 - An Introduction to Web Development
-- [X] Section 03 - HTML: The Essentials
+- [X] [Section 02](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%202) - An Introduction to Web Development
+- [X] [Section 03](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%203) - HTML: The Essentials
 - [ ] Section 04 - HTML: Next Steps & Semantics
 - [ ] Section 05 - HTML: Forms & Tables
 - [ ] Section 06 - CSS: The Very Basics
@@ -25,7 +25,7 @@ Insert certificate here when completed
 - [ ] Section 11 - 
 - [ ] Section 12 - 
 - [ ] Section 13 - 
-- [ ] Section 14 - JavaScript Basics!
+- [ ] [Section 14](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%214) - JavaScript Basics!
 
 - Add more when time comes
 
