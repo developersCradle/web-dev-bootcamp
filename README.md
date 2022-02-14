@@ -10,7 +10,7 @@ All course material from The Web Developer Bootcamp 2022 by Colt Steele
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
 Insert certificate here when completed
-https://github.com/developersCradle/java-programming-masterclass/tree/master/Section%2011
+
 ## Progress
 - [x] Section 01 - Course Orientation
 - [X] [Section 02](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%202) - An Introduction to Web Development
@@ -18,15 +18,17 @@ https://github.com/developersCradle/java-programming-masterclass/tree/master/Sec
 - [ ] Section 04 - HTML: Next Steps & Semantics
 - [ ] Section 05 - HTML: Forms & Tables
 - [ ] Section 06 - CSS: The Very Basics
-- [ ] Section 07 - 
-- [ ] Section 08 - 
-- [ ] Section 09 - 
+- [ ] Section 07 - The World of CSS Selectors
+- [ ] Section 08 - The CSS Box Model
+- [ ] Section 09 - Other Assorted Useful CSS Properties
 - [ ] Section 10 - 
 - [ ] Section 11 - 
 - [ ] Section 12 - 
 - [ ] Section 13 - 
-- [ ] [Section 14](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%214) - JavaScript Basics!
-
+- [x] [Section 14](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2014) - JavaScript Basics!
+- [x] [Section 15](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2015) - JavaScript Strings and More
+- [ ] [Section 16](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2016) -
+ 
 - Add more when time comes
 
 ## The Major Projects/Exercise
