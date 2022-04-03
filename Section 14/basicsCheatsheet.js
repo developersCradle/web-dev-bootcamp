@@ -22,3 +22,4 @@ let isHappy = true;
 let numberOfChickens = 6; //GOOD
 // NOT THE JS WAY:
 // let number_of_chickens = 6;
+

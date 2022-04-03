@@ -4,14 +4,14 @@ JavaScript Strings and More
 
 # What I Learned
 
-* Stirg "String"
+* String "String"
 	* "Srign" or 'Sring', not "String'
 * Strings are indexed
 * `let city = 'Tokyo';` `city[0]; -> 'T'`
-	* city[121212] will reulut to `undefined`
+	* city[121212] will result to `undefined`
 		* JavaScript way to tell `nothing there`
-* //Strings have a length:, magical properties
-	* city.length; 5
+* //Strings have a length, one of magical property
+	* city.length; -> 5
 * "lol" + " lol2" -> concatination -> "lol lol2"
 * Javascript String is immutable
 * "    omg  ".trim();  -> "omg"
@@ -25,13 +25,13 @@ JavaScript Strings and More
 	* `output` -> "You bought 5 Artichoke. Total is: 11.25"
 * Template Literals are strings that allow embedded expresions. Evaluated and turned into string
 	* `I am ${ 10 + 2 } years old` -> "I am 22 old"
-	* Need to use back-tick characters ```
+	* Need to use back-tick characters `
 * With Template Literate `You bought ${qty} ${product}. Total is: $${price * qty}`;
 	* `output` -> "You bought 5 Artichoke. Total is: $11.25"
-* Null needs to be **assigned** does not point to nowhere
+* `Null` needs to be **assigned**, does not point to nowhere
 	* let logInUser = null; -> null
-* Undefined, variables which are **not assigned** values
-	* `let x;` -> undefined`
+* `Undefined`, variables which are **not assigned** values
+	* `let x;` -> `undefined`
 * Object is collection of methods and variables
 	* Math.PI
-* <img src="randomInteger.png" alt="alt text" width="200"/>
+* <img src="randomInteger.png" alt="alt text" width="800"/>
