@@ -33,7 +33,7 @@ Insert certificate here when completed
 - [ ] Section 19 - 
 - [x] [Section 20](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2020) - Introduction Function. Tee tehtävät kun aikaa!
 - [ ] Section 21 - Leveling Up Our Function
- 
+- [ ] Section 22 - Callbacks & Array Methods 
 - Add more when time comes
 
 ## The Major Projects/Exercise
