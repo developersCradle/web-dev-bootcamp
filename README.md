@@ -28,7 +28,7 @@ Insert certificate here when completed
 - [x] [Section 14](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2014) - JavaScript Basics!
 - [x] [Section 15](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2015) - JavaScript Strings and More
 - [ ] [Section 16](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2016) - JavaScript Decision Making
-- [ ] Section 17 - 
+- [ ] [Section 17](#) - Section 17: JavaScript Arrays
 - [ ] Section 18 - 
 - [ ] Section 19 - 
 - [x] [Section 20](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2020) - Introduction Function. Tee tehtävät kun aikaa!
