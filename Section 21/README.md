@@ -52,3 +52,10 @@
     }`
     - More newer way to define methods inside object or class
         - <img src="shortHand.JPG" alt="alt text" width="800"/>
+    - In js value of `this` depends on invocation context where is used in
+    - window is huge object where things are defined, top level object in Js
+    - this refers how it was called
+        - What were left of `.` operator
+    - Errors in JS, Try/Catch
+          - <img src="uncaughtReferenceError.JPG" alt="alt text" width="800"/>
+          - We could Catch such errors
