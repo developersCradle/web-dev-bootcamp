@@ -15,25 +15,27 @@ Insert certificate here when completed
 - [x] Section 01 - Course Orientation
 - [X] [Section 02](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%202) - An Introduction to Web Development
 - [X] [Section 03](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%203) - HTML: The Essentials
-- [ ] Section 04 - HTML: Next Steps & Semantics
-- [ ] Section 05 - HTML: Forms & Tables
-- [ ] Section 06 - CSS: The Very Basics
-- [ ] Section 07 - The World of CSS Selectors
-- [ ] Section 08 - The CSS Box Model
-- [ ] Section 09 - Other Assorted Useful CSS Properties
-- [ ] Section 10 - 
-- [ ] Section 11 - 
-- [ ] Section 12 - 
-- [ ] Section 13 - 
+- [ ] [Section 04](#) - HTML: Next Steps & Semantics
+- [ ] [Section 05](#) - HTML: Forms & Tables
+- [ ] [Section 06](#) - CSS: The Very Basics
+- [ ] [Section 07](#) - The World of CSS Selectors
+- [ ] [Section 08](#) - The CSS Box Model
+- [ ] [Section 09](#) - Other Assorted Useful CSS Properties
+- [ ] [Section 10](#) - Responsive CSS & Flexbox
+- [ ] [Section 11](#) - Pricing Panel Project
+- [ ] [Section 12](#) - CSS Frameworks: Bootstrap
+- [ ] [Section 13](#) - OPTIONAL Museum Of Candy Project
 - [x] [Section 14](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2014) - JavaScript Basics!
 - [x] [Section 15](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2015) - JavaScript Strings and More
 - [ ] [Section 16](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2016) - JavaScript Decision Making
 - [x] [Section 17](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2017) - JavaScript Arrays
 - [x] [Section 18](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2018) - Section 18: JavaScript Object Literals
-- [ ] Section 19 - 
+- [ ] [Section 19](#) - Section 19: Repeating Stuff With Loops 
 - [x] [Section 20](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2020) - Introduction Function. Tee tehtävät kun aikaa!
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
-- [ ] Section 22 - Callbacks & Array Methods 
+- [ ] [Section 22](#) - Callbacks & Array Methods 
+- [ ] [Section 23](#) - Newer JavaScript Features
+- [ ] [Section 24](#) - Introducing The World Of The DOM
 - Add more when time comes
 
 ## The Major Projects/Exercise

@@ -26,3 +26,10 @@ JavaScript Object Literals
     - comment.username
 - <img src="KeysConvert.JPG" alt="alt text" width="600"/>
     - Every key is converted to string behind schenes
+- <img src="accessingInformationJSobjects.JPG" alt="alt text" width="600"/>
+    - Three main ways accessing information in JS Objects
+    - These can be also add and modify
+        - Example. `palette.blue = "#2222"`;
+            - Adds new property to palette Js Object 
+- Its common to mix and match arrays and objects together
+    - <img src="arraysAndObjects.JPG" alt="alt text" width="600"/>
