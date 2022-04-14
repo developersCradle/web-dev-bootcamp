@@ -10,3 +10,4 @@ JavaScript Decision Making
 - `1 == '1'` first conversion is made after that comparison is made 
 - `===` strict equal, does not make conversions
 	- always use `===` if need equality
+- <img src="falsy.JPG" alt="alt text" width="600"/>
