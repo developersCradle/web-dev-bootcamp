@@ -27,10 +27,10 @@ Insert certificate here when completed
 - [ ] [Section 13](#) - OPTIONAL Museum Of Candy Project
 - [x] [Section 14](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2014) - JavaScript Basics!
 - [x] [Section 15](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2015) - JavaScript Strings and More
-- [ ] [Section 16](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2016) - JavaScript Decision Making
+- [x] [Section 16](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2016) - JavaScript Decision Making
 - [x] [Section 17](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2017) - JavaScript Arrays
 - [x] [Section 18](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2018) - Section 18: JavaScript Object Literals
-- [ ] [Section 19](#) - Section 19: Repeating Stuff With Loops 
+- [x] [Section 19](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2019) - Section 19: Repeating Stuff With Loops 
 - [x] [Section 20](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2020) - Introduction Function. Tee tehtävät kun aikaa!
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
 - [ ] [Section 22](#) - Callbacks & Array Methods 
