@@ -4,6 +4,7 @@ const subreddits = ['cringe', 'books', 'chickens', 'funny', 'pics', 'soccer', 'g
 //     console.log(`Visit reddit.com/r/${subreddits[i]}`)
 // }
 
+
 for (let subreddit of subreddits) {
     console.log(`Visit reddit.com/r/${subreddit}`)
 }
