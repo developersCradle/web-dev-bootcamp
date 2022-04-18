@@ -5,7 +5,7 @@ Repeating Stuff With Loops
 
 - `for of loop`
     - Loop over arrays or other individual objects
-- <img src="forOf.JPG" alt="alt text" width="600"/>
+<img src="forOf.JPG" alt="alt text" width="600"/>
     - variable is indivudaul element in my arrays, of `iterable object`
     - if don't need index forOf loop is good option
     - iterable object, "string" are also `iterable objects`

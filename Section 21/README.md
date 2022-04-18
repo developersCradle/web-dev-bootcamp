@@ -13,11 +13,11 @@
         - They are scoped to functions, but not to blocks
         - Let and const were introduced for this problematic reason of scopes
         - dont use `var`
-    - <img src="functionScope.JPG" alt="alt text" width="800"/>
+- <img src="functionScope.JPG" alt="alt text" width="800"/>
 - `{  }` block scope
-    - <img src="blockScope.JPG" alt="alt text" width="800"/>
+- <img src="blockScope.JPG" alt="alt text" width="800"/>
 - Lexical scope, inner has access to outher methods variables
-    - <img src="lexicalScope.JPG" alt="alt text" width="800"/>
+- <img src="lexicalScope.JPG" alt="alt text" width="800"/>
 - Function expression
     - Stores function inside variable
     - `const add = function (x,y) {
@@ -26,22 +26,28 @@
     - Called by name of variable, not name of function
     - Function are values in Js 
 - Higher Order Function
-    - <img src="HigherOrderFunctions.JPG" alt="alt text" width="800"/>
-    - Accepts functionas argument `function callTwice(func)
+- <img src="HigherOrderFunctions.JPG" alt="alt text" width="800"/>
+    - Accepts functionas argument 
+```
+    function callTwice(func)
     {
         func();
         func();
-    }`
+    }
+```
 - Return function
     - We can return function and save it `const isAdult = makeBetweenFunc(19,64);`
 - Factory function which makes function
-    - `function makeBetweenFunc(min, max) {
+```
+function makeBetweenFunc(min, max) {
     return function (num) {
         return num >= min && num <= max;
         }
-    }`
+    }
+```
 - adding properties and methods
-    - `const myMath = {
+    ```
+    const myMath = {
         PI : 3.14159,
         square : function (num) {
             return num * num;
@@ -49,7 +55,8 @@
         cube : function (num) {
             return num ** 3;
         }
-    }`
+    }
+    ```
     - More newer way to define methods inside object or class
         - <img src="shortHand.JPG" alt="alt text" width="800"/>
     - In js value of `this` depends on invocation context where is used in
@@ -57,5 +64,5 @@
     - this refers how it was called
         - What were left of `.` operator
     - Errors in JS, Try/Catch
-          - <img src="uncaughtReferenceError.JPG" alt="alt text" width="800"/>
-          - We could Catch such errors
+<img src="uncaughtReferenceError.JPG" alt="alt text" width="800"/>
+    - We could Catch such errors

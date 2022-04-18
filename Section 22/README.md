@@ -5,48 +5,121 @@ Focus here, passing functions in
 # What I Learned
 - Foreach more popular before forOf were introduced
 - <img src="forEach.JPG" alt="alt text" width="600"/>
-``` numbers.forEach(function (el) {
-        console.log(el)
-})
+
+``` 
+    numbers.forEach(function (el) {
+            console.log(el)
+    })
 ```
-    - Passing anynomoyus function
-        -el will be each elements one at the time
+- Passing anynomoyus function
+    - `el` will be each elements one at the time
     - Only need once, no need define else where
     - Older way 
-- `for (let el of numbers) {
-     console.log(el);
- }`
-    - This was newer way loopping trought array
+```
+    for (let el of numbers) {
+        console.log(el);
+    }
+```
+- This was newer way loopping trought array
 - Map, maps array one state to another
 - <img src="map.JPG" alt="alt text" width="600"/>
-    - Map is usually used when we want some **portion** of data OR when need **transform** data array to some other data array 
-- <img src="arrowFunction.JPG" alt="alt text" width="600"/>
-    - Arrow functions are to make function expressions
+- Map is usually used when we want some **portion** of data OR when need **transform** data array to some other data array 
+- <img src="arrowFunction.JPG" alt="alt text" width="600"/>    
+- Arrow functions are to make function expressions
+
 ```
     const add = (x,y) => {
         return x + y;
 }
 ```
+
 - If only one argument parenthesis are optional
+
 ```
     const square = num => {
         return num * num;
 }
 ```
+
 - Implicit returns only works with arrow function
 - <img src="implicitReturn.JPG" alt="alt text" width="600"/>
-    - Implicit returns only works if there only one line
-- `setTimeout` method/function after some time, callback is called 
+- Implicit returns only works if there only one line
+- `setTimeout` method/function after some time, callback is called
+
 ```
 setTimeout(() => {
     console.log("Hello");
 }, 3000); 
 ```
+
 - `setInterval` calls, callback after time to time
+
 ```
 const id = setInterval(() => {
     console.log(Math.random());
 },2000);
 ```
-    - stops interval `clearIterval(id)`
+
+- stops interval `clearIterval(id)`
 - <img src="filter.JPG" alt="alt text" width="600"/>
+- <img src="some.JPG" alt="alt text" width="600"/>
+- <img src="every.JPG" alt="alt text" width="600"/>
+- <img src="reduce.JPG" alt="alt text" width="600"/>
+- Make own experimental stuff
+    - We could make accumulator hold most min value of big array
+- <img src="summingArray.JPG" alt="alt text" width="600"/>
+- Need provide `reducer function`
+    - 1nd, parameter `accumulator`, holds the sum
+    - 2nd, parameter `currentValue` presents each element
+
+```
+
+ let total = 0;
+ for (let price of prices) {
+     total += price
+ }
+ console.log(total)
+
+```
+- We can achieve same by using reduce 
+
+```
+
+ const total = prices.reduce((total, price) => {
+     return total + price
+ })
+
+```
+
+- Other application might be, to get hingestRated movie
+
+```
+
+const highestRated = movies.reduce((bestMovie, currMovie) => {
+    if (currMovie.score > bestMovie.score) {
+        return currMovie;
+    }
+    return bestMovie;
+})
+
+```
+- `this` refers what was left of `.` operator
+```
+
+const person = {
+    firstName: 'Viggo',
+    lastName: 'Mortensen',
+    fullName: function () {
+        return `${this.firstName} ${this.lastName}`
+    }
+
+```
+- but, with arrow functions, it refefers scope where it was created in. LITLE BIT TRICKY
+```
+
+() => {
+        console.log(this); //This referns window object
+        }
+```
+
+- Arrow Functions & 'this', en sisäistänyt kunnolla, katso 230 video uudestaan

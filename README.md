@@ -33,7 +33,7 @@ Insert certificate here when completed
 - [x] [Section 19](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2019) - Section 19: Repeating Stuff With Loops 
 - [x] [Section 20](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2020) - Introduction Function. Tee tehtävät kun aikaa!
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
-- [ ] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
+- [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
 - [ ] [Section 23](#) - Newer JavaScript Features
 - [ ] [Section 24](#) - Introducing The World Of The DOM
 - Add more when time comes
@@ -42,6 +42,8 @@ Insert certificate here when completed
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
     
+
+-Todo jäin 18kpl katso formatointi ja typot
     
 
 
