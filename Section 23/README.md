@@ -112,7 +112,7 @@ const lastName = user.lastName;
     - `const { born: birthYear } = user;`
     - Also works with default value
     - `const { died: deathYear = 'N/A' } = user;`
-- <img src="paramDestructuring.JPG" alt="alt text" width="600"/>
+<img src="paramDestructuring.JPG" alt="alt text" width="600"/>
 - We can `destruct` value when passing in **Param Destructing** 
 ```
 function fullName({ firstName, lastName }) {

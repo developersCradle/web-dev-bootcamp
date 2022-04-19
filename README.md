@@ -34,7 +34,7 @@ Insert certificate here when completed
 - [x] [Section 20](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2020) - Introduction Function. Tee tehtävät kun aikaa!
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
 - [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
-- [ ] [Section 23](#) - Newer JavaScript Features
+- [x] [Section 23](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2023) - Newer JavaScript Features
 - [ ] [Section 24](#) - Introducing The World Of The DOM
 - Add more when time comes
 
