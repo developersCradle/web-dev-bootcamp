@@ -35,7 +35,18 @@ Insert certificate here when completed
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
 - [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
 - [x] [Section 23](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2023) - Newer JavaScript Features
-- [ ] [Section 24](#) - Introducing The World Of The DOM
+- [ ] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM
+- [ ] [Section 25](#) - The Missing Piece: DOM Events
+- [ ] [Section 26](#) -
+- [ ] [Section 27](#) -
+- [ ] [Section 28](#) -
+- [ ] [Section 29](#) -
+- [ ] [Section 30](#) -
+- [ ] [Section 31](#) -
+- [ ] [Section 32](#) -
+- [ ] [Section 33](#) -
+- [ ] [Section 34](#) -
+
 - Add more when time comes
 
 ## The Major Projects/Exercise
