@@ -14,11 +14,26 @@ Introducing The World Of The DOM
     - Created automatically by browser based on content of page
 <img src="domCreation.JPG" alt="alt text" width="600"/>
 - Dom has many ways to manipulate site
- - Selection methods from DOM
+- `Element` is the most general base class from which all element objects (i.e. objects that represent elements) in a Document inherit
+- Selection methods from DOM
+    - These three main one **old ways** of selecting
     - **getElemetById**
         - Exist on `document`
         - `document.getElementById('banner');`
         - DOM Object is returned, not html
 <img src="banner.JPG" alt="alt text" width="600"/>
-    - getElementsByTagName
-    - getElementsByClassName
+    - **getElementsByTagName** & **getElementsByClassName**
+        - Select more than one
+        - returns `HTMLcollection`
+            - Looks like array, **not array**
+            - Array methods does not work, example `.map()` won't work
+            - Iterable collection
+<img src="getElementsByTagNameInAction.JPG" alt="alt text" width="600"/>
+- Iterable collection, we still can loop trough it
+```
+const allImages = document.getElementsByTagName('img');
+
+for (let img of allImages) {
+    console.log(img);
+}
+```
