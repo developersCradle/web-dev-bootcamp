@@ -57,3 +57,11 @@ for (let link of links) {
     console.log(link.href)
 }
 ```
+- Dom object manipulation propertyes/methods. **Most important ones**
+<img src="domObjecMethods.PNG" alt="alt text" width="600"/>
+-`Inner text` is text between opening and closing tag
+-`document.quarySelector('p').innerText`
+    - Gets text inside `<p>this text will be selected</p>`
+-`textContent` almost like same as `innerText` with some differences
+    - `textContent` gives uss everything
+-`innerHTML` gives uss html content, we could add`document.quarySelector('p').innerText = '<b>This is bold</b>'`. Will be treated as HTML and would be shown as bold
