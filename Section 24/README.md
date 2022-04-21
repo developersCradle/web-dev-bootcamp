@@ -23,7 +23,7 @@ Introducing The World Of The DOM
         - DOM Object is returned, not html
 <img src="banner.JPG" alt="alt text" width="600"/>
     - **getElementsByTagName** & **getElementsByClassName**
-        - Select more than one
+        - **Selects more than one**
         - returns `HTMLcollection`
             - Looks like array, **not array**
             - Array methods does not work, example `.map()` won't work
@@ -35,5 +35,25 @@ const allImages = document.getElementsByTagName('img');
 
 for (let img of allImages) {
     console.log(img);
+}
+```
+<img src="querySelectors.JPG" alt="alt text" width="600"/>
+
+- More newer way manipulating DOM
+    - Many tools in one
+        - Selecting by:
+        - **Returns first found match**
+            - Class `document.querySelector('.square');`
+            - Id `document.querySelector('.square');`
+            - Element `document.querySelector('h1');`
+- Selecting type `<a> `and with atrribute `Java`
+<img src="typeAndAtrribute.JPG" alt="alt text" width="600"/>
+- `querySelectorAll` same as above, byt returns many matches
+- One usage of `querySelectorAll`, with descendant selector  from CSS
+```
+const links = document.querySelectorAll('p a');//Select paragraph which have anchor tags
+
+for (let link of links) {
+    console.log(link.href)
 }
 ```
