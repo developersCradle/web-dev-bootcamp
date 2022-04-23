@@ -73,3 +73,14 @@ for (let link of links) {
 - We can also access atrribute throught `getAttribute()`
 - Setting attributes can be
 - <img src="settingAttribute.JPG" alt="alt text" width="600"/>
+- (manipulating style trought JS) Selecting and manipulating DOM element style can be tricky. `h1.style` not the same as applied `css style`
+    - Apply css style, wont be shown in DOM element
+- Example of manipulating style trought DOM element
+    -`h1.style.fontSize = '3m';`
+    - Assigned values needs to be **strings**
+- Changes all links to diffrent color trought js `style` 
+```
+for (let link of allLinks) {
+    link.style.color = 'rgb(0, 108, 134)';
+}
+```
