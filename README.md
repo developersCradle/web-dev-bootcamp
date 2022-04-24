@@ -36,7 +36,7 @@ Insert certificate here when completed
 - [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
 - [x] [Section 23](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2023) - Newer JavaScript Features
 - [x] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM selvitä pieni TODO
-- [ ] [Section 25](#) - The Missing Piece: DOM Events
+- [ ] [Section 25](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2025) - The Missing Piece: DOM Events
 - [ ] [Section 26](#) -
 - [ ] [Section 27](#) -
 - [ ] [Section 28](#) -
