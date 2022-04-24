@@ -35,7 +35,7 @@ Insert certificate here when completed
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
 - [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
 - [x] [Section 23](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2023) - Newer JavaScript Features
-- [ ] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM
+- [x] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM selvitä pieni TODO
 - [ ] [Section 25](#) - The Missing Piece: DOM Events
 - [ ] [Section 26](#) -
 - [ ] [Section 27](#) -
@@ -52,7 +52,8 @@ Insert certificate here when completed
 ## The Major Projects/Exercise
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
-    
+* Section 24 Exercises
+    * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 
 -Todo jäin 18kpl katso formatointi ja typot
     

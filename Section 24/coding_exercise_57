@@ -1,0 +1,7 @@
+const lis = document.querySelectorAll('li');
+
+for(let el of lis){
+
+    el.classList.toggle('highlight');
+
+} 

@@ -79,8 +79,64 @@ for (let link of links) {
     -`h1.style.fontSize = '3m';`
     - Assigned values needs to be **strings**
 - Changes all links to diffrent color trought js `style` 
+
 ```
 for (let link of allLinks) {
     link.style.color = 'rgb(0, 108, 134)';
 }
 ```
+
+- Need to wait when browser loads and call window object to figure out apllied css
+    - `window.getCoputedStyle(h1)` gets computed style for element
+        - `h1` is element object in the DOM
+    - get computed style `window.getCoputedStyle(h1).margin`; // "21.44px 0px"
+- Setting class attribute(works with one class at the time)`h2.setAttrivute('class', 'purple');`
+    - Or clumsy way to add would be `h2.setAtrribute('class', '${currentClasses}' purple);`
+- **classList**
+    - Easy way to get current classes on element
+    - Manipulate them
+- Better way is using `classList` object, `h2.classList.add('purple');`
+- `h2.classList.toggle('purple');` Toggling is common way using classList
+- Its more practical to use CSS to make chages/behaviour changes 
+to certain HMTL element than in pure vanilla Js. Just toggle those css classes when needed on/off
+- h2.nextSibling & previousSibling
+    - Gives **Node** different that DOM element
+        - Nodes can represent text
+        - Some browser creates linebreak nodes
+        - Use `nextElemetnSibling` or `previousSibling` instead
+- Creating Element
+```
+const ele = document.createElement('h3');
+ele.innerText = 'I am new!'
+document.body.appendChild(ele); // Adding to webpage
+```
+- Creating Element other way
+```
+const p = document.querySelector('p');
+p.append("New added text", "Next text apended"); // Adding to last child
+p.preapend(newB); //Adding to first child
+```
+
+- <img src="addingBetweenElements.JPG" alt="alt text" width="600"/>
+    - We want add between elements. `preapend` & `append` does not work
+
+```
+const h2 = document.createElement('h2');//creating element
+h2.append("Are adorable chickens");//Adding text to h2
+
+//We wana add after the h1
+const h1 = document.querySelector('h1');
+h1.insertAdjacentElement('afterend', h2); // Adding
+```
+- `removeChild()` older version of remove
+```
+const firstLi = document.querySelector('li');
+const ul = firstLi.parentElement;
+ul.removeChild(firstLi);
+```
+- Newer way `remove()`, should use this
+```
+const img = document.querySelector('img');
+img.remove();
+```
+- `div inline block` why??? selvitä
