@@ -52,3 +52,35 @@ btn3.addEventListener('click', function () {
 tasButton.addEventListener('click', twist)
 tasButton.addEventListener('click', shout)
 ```
+- Event object is passed in even if its not in parameter signature, `evt` was not made by user
+```
+document.querySelector('button').addEventListener('click', function (evt) {
+    console.log(evt)
+})
+
+```
+- Event object `evt`
+<img src="eventObject.PNG" alt="alt text" width="800"/>
+```
+console.log(e.key); // could be different depending on keybord layout
+console.log(e.code); // code will be same regardless of keyboard layout
+```
+- `e.key` key pressed
+- `e.code` mapping code which were pressed 
+```
+<form action="/dogs">
+        <input type="text" name="tweet" placeholder="tweet">
+        <button>Post Tweet</button>
+</form>
+```
+- Request is made to whatever is spesified to `action` and went to location
+```
+tweetForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+```
+- ´submit´ listens submit
+- `e.preventDefault();` prevents default behaviour firing, `<form action="/dogs"`> case, page would not be redirected to certain address
+    - we could use it inside eventListener or form posting
+
+
+
