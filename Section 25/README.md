@@ -95,7 +95,7 @@ console.log(e.code); // code will be same regardless of keyboard layout
 - `e.key` key pressed
 - `e.code` mapping code which were pressed 
 ```
-<form action="/dogs">
+<form action="/dogs" id="tweetForm">
         <input type="text" name="tweet" placeholder="tweet">
         <button>Post Tweet</button>
 </form>
@@ -108,6 +108,7 @@ tweetForm.addEventListener('submit', function (e) {
 - ´submit´ listens submit
 - `e.preventDefault();` prevents default behaviour firing, `<form action="/dogs"`> case, page would not be redirected to certain address
     - we could use it inside eventListener or form posting
-
-
-
+- `const tweetInput = tweetForm.elements.tweet;`
+    - Inside `form` there is elemetns `proeprty` which holds elements inside form. Example our `<input type="text" name="tweet" placeholder="tweet">`. What we spesified to `name` will be saved inside `tweetForm.elements`
+- <img src="elemtsInsideForm.JPG" alt="alt text" width="800"/>
+    - Elements inside form, `console.dir(tweetForm)`
