@@ -36,16 +36,21 @@ Insert certificate here when completed
 - [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
 - [x] [Section 23](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2023) - Newer JavaScript Features
 - [x] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM selvitä pieni TODO
-- [ ] [Section 25](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2025) - The Missing Piece: DOM Events
-- [ ] [Section 26](#) -
-- [ ] [Section 27](#) -
-- [ ] [Section 28](#) -
-- [ ] [Section 29](#) -
-- [ ] [Section 30](#) -
-- [ ] [Section 31](#) -
-- [ ] [Section 32](#) -
-- [ ] [Section 33](#) -
-- [ ] [Section 34](#) -
+- [x] [Section 25](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2025) - The Missing Piece: DOM Events
+- [ ] [Section 26](#) - Score Keeper CodeAlong
+- [ ] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
+- [ ] [Section 28](#) - AJAX and API's
+- [ ] [Section 29](#) - Prototypes, Classes, & OOP
+- [ ] [Section 30](#) - Mastering The Terminal
+- [ ] [Section 31](#) - Our First Brush With Node
+- [ ] [Section 32](#) - Exploring Modules The NPM Universe
+- [ ] [Section 33](#) - Creating Servers With Express
+- [ ] [Section 34](#) - Creating Dynamic HTML With Templating
+- [ ] [Section 35](#) - Defining RESTful Routes
+- [ ] [Section 36](#) - Our First Database: MongoDB
+- [ ] [Section 37](#) - Connecting To Mongo With Mongoose
+- [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
+- [ ] [Section 39](#) - YelpCamp: Campgrounds CRUD
 
 - Add more when time comes
 
@@ -55,9 +60,10 @@ Insert certificate here when completed
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
-    * [RandomColor](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html)
-
--Todo jäin 18kpl katso formatointi ja typot
+    * [59_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_59.html)
+    * [60_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_60.html) 
+    * [Coding Exercise Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) ** Random Color game **
+- Todo jäin 18kpl katso formatointi ja typot
     
 
 
