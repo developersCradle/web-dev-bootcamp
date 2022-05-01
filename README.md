@@ -38,8 +38,8 @@ Insert certificate here when completed
 - [x] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM selvitä pieni TODO
 - [x] [Section 25](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2025) - The Missing Piece: DOM Events
 - [ ] [Section 26](#) - Score Keeper CodeAlong
-- [ ] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
-- [ ] [Section 28](#) - AJAX and API's
+- [x] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
+- [ ] [Section 28](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2028) - AJAX and API's
 - [ ] [Section 29](#) - Prototypes, Classes, & OOP
 - [ ] [Section 30](#) - Mastering The Terminal
 - [ ] [Section 31](#) - Our First Brush With Node
