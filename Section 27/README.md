@@ -19,7 +19,9 @@
 - [webAPIS single thread](http://latentflip.com/loupe/?code=Y29uc29sZS5sb2coIlNlbmRpbmcgcmVxdWVzdCB0byBzZXJ2ZXIhIikKc2V0VGltZW91dChmdW5jdGlvbigpIHsKICAgIGNvbnNvbGUubG9nKCJIZXJlIGlzIHlvdXIgZGF0YSBmcm9tIHRoZSBzZXJ2ZXIuLi4iKQp9LCAzMDAwKQpjb25zb2xlLmxvZygiSSBBTSBBVCBUSEUgRU5EIE9GIFRIRSBGSUxFISIp!!!)
 
 - This pattern is common to pass in callback what to do next after previous have been finished
+
 ```
+
 const delayedColorChange = (newColor, delay, doNext) => {
     setTimeout(() => {
         document.body.style.backgroundColor = newColor;
@@ -169,7 +171,7 @@ fakeRequest('/dogs/1') // USING OUR PROMISE
 
 ```
 
- const sing = asynch () =>
+ const sing = async () =>
  {
      return 'LALALALLA';
  }
@@ -183,7 +185,7 @@ sing().then // return promise, we can chain them
 
 ```
 
- const sing = asynch () =>
+ const sing = async () =>
  {
      asdasdsa.asdasdas();
      //or

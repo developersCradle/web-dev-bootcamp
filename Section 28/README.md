@@ -85,18 +85,15 @@ const parsedData = JSON.parse(data);
 - HTTP headers way passing data with requests and responses
     - Key value pairs
 
-<img src="requestHeaders.JPG
-" alt="alt text" width="900"/>
+<img src="requestHeaders.JPG" alt="alt text" width="900"/>
 
 - Some API needs **headers** with request, like this API [dadjoke](https://icanhazdadjoke.com/api)
     - If you want JSON give me Accept header
     - Documents tels you if you need this
 
-<img src="ApiNeedsHeader.JPG
-" alt="alt text" width="900"/>
+<img src="ApiNeedsHeader.JPG" alt="alt text" width="900"/>
 
-<img src="oldWayOfQuerying.JPG
-" alt="alt text" width="900"/>
+<img src="oldWayOfQuerying.JPG" alt="alt text" width="900"/>
 
 - No support for promises
 - Old way querying APIS, no need to remember! XHRs
@@ -129,8 +126,7 @@ req.send();
 
 - **Fetch** API, improved way using Js
 
-<img src="fetchApi.JPG
-" alt="alt text" width="900"/>
+<img src="fetchApi.JPG" alt="alt text" width="900"/>
 
 - simple case using fetch `fetch(https://swapi.dev/api/people/1)`
 
@@ -207,3 +203,34 @@ getStarWarsPerson(10);
 ```
 
 - Many times you need **read** api documents and read how to use it
+
+- Using Axios and dadJokeAPi, we spesifsy header
+
+```
+
+  const config = { headers: { Accept: "application/json" } };
+    const res = await axios.get("https://icanhazdadjoke.com/", config);
+    return res.data.joke;
+
+```
+
+- [TVShowSearchApp](https://www.tvmaze.com/api)
+- Requesting API using axios and string template
+```
+const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${searchTerm}`);
+```
+- Sometimes better use config object if there is many query string variables
+  - adding values programmatically
+- `q` is documented in tvmaze api. Structure of variables is based on used API
+```
+    const config = { params: { q: searchTerm } } // query string object
+    const res = await axios.get(`http://api.tvmaze.com/search/shows`, config); 
+```
+
+<img src="parameterIgnored.JPG" alt="alt text" width="900"/>
+
+```
+    const config = { params: { q: searchTerm , someRANDOMSTUFF: 'TOTALLYRANDOM'} }
+    const res = await axios.get(`http://api.tvmaze.com/search/shows`, config);
+```
+- Example where `query string` param get ignored, `TVShowSearchApp` API does not care even if we send extra query string param `someRANDOMSTUFF: 'TOTALLYRANDOM'`

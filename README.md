@@ -39,7 +39,7 @@ Insert certificate here when completed
 - [x] [Section 25](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2025) - The Missing Piece: DOM Events
 - [ ] [Section 26](#) - Score Keeper CodeAlong
 - [x] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
-- [ ] [Section 28](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2028) - AJAX and API's
+- [x] [Section 28](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2028) - AJAX and API's
 - [ ] [Section 29](#) - Prototypes, Classes, & OOP
 - [ ] [Section 30](#) - Mastering The Terminal
 - [ ] [Section 31](#) - Our First Brush With Node
@@ -62,7 +62,9 @@ Insert certificate here when completed
 * Section 25 Exercises
     * [59_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_59.html)
     * [60_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_60.html) 
-    * [Coding Exercise Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) ** Random Color game **
+    * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **<- Random Color game**
+* Section 28 Exercises
+    * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **<- TV Show Search App**
 - Todo jäin 18kpl katso formatointi ja typot
     
 

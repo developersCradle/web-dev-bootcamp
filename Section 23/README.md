@@ -123,6 +123,6 @@ function fullName({ firstName, lastName }) {
 - No need for whole object, just `firstname` and `lastname`
     - Popular
 - Common usage, we are only caring about only one propety in this case `score`. **Param Destruct** on way in to filter array method 
-    - `movies.filter((movie) => movie.score >= 90)`
+    - `movies.filter((movie) => movie.score >= 90);`
     - **TO**
-    -  `movies.filter(({ score }) => score >= 90)`
+    -  `movies.filter(({ score }) => score >= 90);`
