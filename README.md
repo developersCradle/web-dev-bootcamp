@@ -52,7 +52,8 @@ Insert certificate here when completed
 - [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
 - [ ] [Section 39](#) - YelpCamp: Campgrounds CRUD
 
-- Add more when time comes
+- Add more when time comes, JS kohdat opiskellut nyt voi edetä angulariin, palaa kun taas aikaa
+- TODO katso noi tehtävät lävitse ja katso nuo pienet typot, kun aikaa :D
 
 ## The Major Projects/Exercise
 * Section 03 Exercises
