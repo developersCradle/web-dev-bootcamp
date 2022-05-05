@@ -40,7 +40,7 @@ Insert certificate here when completed
 - [ ] [Section 26](#) - Score Keeper CodeAlong
 - [x] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
 - [x] [Section 28](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2028) - AJAX and API's
-- [ ] [Section 29](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2029) - Prototypes, Classes, & OOP
+- [x] [Section 29](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2029) - Prototypes, Classes, & OOP
 - [ ] [Section 30](#) - Mastering The Terminal
 - [ ] [Section 31](#) - Our First Brush With Node
 - [ ] [Section 32](#) - Exploring Modules The NPM Universe

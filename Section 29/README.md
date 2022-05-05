@@ -29,3 +29,52 @@ Array.prototype.pop = function() {
   return "I WILL NEEVER WURK T:POP FUNKTIO :D";
 };
 ```
+- We are constructing object, hence **factory function**
+  - Factory function not commonly used, we use more often **constructor function**
+```
+function color(r,g,b) {
+	const color = {};
+	color.r = r;
+	color.g = g;
+	color.b = b;
+	color.rgb = function() {
+		const { r, g, b } = this;
+		return `rgb(${r}, ${g}, ${b})`;
+	};
+	color.hex = function() { // saving method to empty object which is inside empty object
+		const { r, g, b } = this; // Object destructuring from this
+		return (
+			'#' + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)
+		);
+	};
+	return color;
+}
+
+```
+- function `===` fuction 
+  - coparisons to reference types 
+- Inisde class prototypes avoid using arrow functions, will bring reference errors
+
+```
+// This is a Constructor Function...
+function Color(r, g, b) {
+	this.r = r;
+	this.g = g;
+	this.b = b;
+}
+```
+
+```
+class Color {
+	constructor(r, g, b, name) {
+		this.r = r; //property for class
+		this.g = g; //property for class
+		this.b = b; //property for class
+		this.name = name; //property for class
+	}
+}
+```
+
+- `this.b` this will be initialized as property to Color object
+
+- Extending like in Java `class Cat extends Pet`
