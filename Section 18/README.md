@@ -6,12 +6,16 @@ JavaScript Object Literals
 - JS object are collection of `properties`
     - Properties are key-value pair
     - Rather accessing using indexes, like in arrays, we use custom keys
-- <img src="object.JPG" alt="alt text" width="600"/>
-    - `const someObjectData = {
+    <img src="object.JPG" alt="alt text" width="300"/>
+
+```
+const someObjectData = {
         data1 : 12,
         data2 : "someText",
         data3 : true
-    };`
+    };
+```
+
 - Saving in object helps structurally keep data trackable
     - Which one is best
         - `numberOfSteps : 200` OR [200]
@@ -19,7 +23,9 @@ JavaScript Object Literals
 - Object literal, key value pairs
     - Object are also arrow types, stores references like arrays
     - Not order in object literal types, like in array
-- <img src="allTypes.JPG" alt="alt text" width="600"/>
+
+<img src="allTypes.JPG" alt="alt text" width="500"/>
+
 - Accessing date out from Object literal
     - comment["username"]
         - This can be used if username is variable, evaluated in when run `comment[username]`

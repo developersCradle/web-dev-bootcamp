@@ -13,11 +13,12 @@ HTML: The Essentials
 	* [Life save 2](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 	
 * `<p>` paragraph takes block of space
-* `<h1>` main topic <h2> second topic
+* `<h1>` main topic `<h2>` second topic
 	* Do not use these for the sake making size bigger	
-	* at the page there should be only <h1> max. Preferrably the main headline
+	* at the page there should be only `<h1>` max. Preferrably the main headline
 	* Headings are used to categorize based on headings
-*`<!DOCTYPE html>` flag for browser about version
+
+* `<!DOCTYPE html>` flag for browser about version
 * `<html></html>` Root element
 * `<title>` title element
 	* Should be in every document which you create
@@ -32,4 +33,4 @@ HTML: The Essentials
 	*`<a href="https://example.com">Website</a>`
 * Image only one tag, not opening and closing tag
 	* `<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">`
-* `<!-- --> comment`
+* For comment inside **HTLM** `<!-- --> comment`
