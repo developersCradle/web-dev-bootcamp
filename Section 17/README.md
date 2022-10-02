@@ -14,6 +14,7 @@ JavaScript Arrays
 
 - `?` in methods signature express optionlity
 <img src="MethodSignature.PNG" alt="alt text" width="600"/>
+
 - `.sort()` not always sort as intended
     - `let luckyNums = [1,2323,23]`
         - Reference is stored to luckyNums, which points to these numbers 
