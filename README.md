@@ -121,3 +121,24 @@ FROM OLD COURSE FROM HERE ONE, rawgit got depricated, some links migreted to htm
 
 
 Kaiken tämän jälkeen tee github pages
+
+IS needed?
+
+MYSTERY TO BE SOLVED
+https://github.com/developersCradle/web-dev-bootcamp/commit/5e1f81b3bc7fde34061b5d66347bba4ac64333f7
+```
+const person = {
+    firstName: 'Viggo',
+    lastName: 'Mortensen',
+    fullName: function () {
+        return `${this.firstName} ${this.lastName}`
+    },
+    shoutName: function () {
+        setTimeout(() => {
+            //keyword 'this' in arrow functions refers to the value of 'this' when the function is created
+            console.log(this);
+            console.log(this.fullName())
+        }, 3000)
+    }
+} 
+```
