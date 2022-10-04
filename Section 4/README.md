@@ -39,7 +39,7 @@ HTML: Next Steps & Semantics
 - `<div>` is just generic container or to group things together
 	- **Block level** element
 
-- [div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
+- [Div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
 <img src="divInAction.PNG" alt="alt text" width="800"/>
 
@@ -55,7 +55,7 @@ HTML: Next Steps & Semantics
 	</div>
 ```
 
-- [span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
+- [Span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
 
 - Span is another generic container element, but its **inline element**
 	- Therefore, its good if you want to groub some stuff inside something, while keeping the layout the same. Example below
@@ -64,9 +64,9 @@ HTML: Next Steps & Semantics
 
 - Example adding style to these `spans`
 
-- `<hr>` makes line [hr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+- `<hr>` makes line [Hr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
-- `<br>` line brake [br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+- `<br>` line brake [Br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
 	- Uselfull inside paragraph to go next line
 
 <img src="brInAction.PNG" alt="alt text" width="400"/>
@@ -75,10 +75,10 @@ HTML: Next Steps & Semantics
 
 <img src="brInActionVisualisation.PNG" alt="alt text" width="500"/>
 
-- Superscript `<sup>` [sup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
+- Superscript `<sup>` [Sup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
 	- Text elevated from baseline
 	- Example `<sup><a href="somesource.com">[2]</a></sup>`
 <img src="subDemonstration.PNG" alt="alt text" width="150"/>
 
-- Subscript [sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+- Subscript `<sub>` [Sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 	- Text lower from baseline

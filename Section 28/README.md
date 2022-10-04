@@ -14,7 +14,7 @@
     - Example get data return in JSON
 - API is broad term, but in general term where it refers to any **interface** where computer communicates/interact with another piece of software
     - Web API HTTP based
-- [cryptoAPI](https://www.cryptonator.com/api/)
+- [CryptoAPI](https://www.cryptonator.com/api/)
 - We could request web pages and get intrested data from there or make simple API HTTP call 
 - Free API are common but, responding to requests costs money
 - APIS returned in **XML** in past
@@ -66,16 +66,13 @@ const parsedData = JSON.parse(data);
 - [Dadjoke](https://icanhazdadjoke.com/api)
 - Common Pattern in API endpoints, to inform something is variable `:id` or `<id>` or `{{id}}`. Example below
 
-<img src="endPointSpecs.JPG
-" alt="alt text" width="600"/>
+<img src="endPointSpecs.JPG" alt="alt text" width="600"/>
 
-<img src="queryString.JPG
-" alt="alt text" width="400"/>
+<img src="queryString.JPG" alt="alt text" width="400"/>
 
 - Quary String
     - Quary Strings **will be ignored** given website or web API, **unlees** its looking for this.
-    <img src="queryStringExample.JPG
-" alt="alt text" width="300"/>
+    <img src="queryStringExample.JPG" alt="alt text" width="300"/>
 
     - **1.** end of url `?` indicating start of query string
     - **2.** any sort of key value pairs
