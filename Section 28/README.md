@@ -3,15 +3,16 @@
  AJAX and API's
 
 # What I Learned
+
  - Making requests in Java Script, this is called **AJAX**
 
- <img src="Ajax.JPG" alt="alt text" width="600"/>
+ <img src="Ajax.JPG" alt="alt text" width="300"/>
 
- - Ajax is making request behind scene
+ - Ajax is making request behind scenes
     - Using JS, load data, save data, or send data somewhere **behind scenes** 
         - In past you had to refresh page to send request to server
     - Example get data return in JSON
-- API is broad term, but in general term where it refers to any **interface** where computer communicates/interact with another piece of sofware
+- API is broad term, but in general term where it refers to any **interface** where computer communicates/interact with another piece of software
     - Web API HTTP based
 - [cryptoAPI](https://www.cryptonator.com/api/)
 - We could request web pages and get intrested data from there or make simple API HTTP call 
@@ -26,12 +27,12 @@
     - JS in name, does not have anything to do with JS
         - Syntax based on JS object key-value pairs
     - Way of formatting data
-
-<img src="json.JPG" alt="alt text" width="600"/>
+    
+<img src="json.JPG" alt="alt text" width="500"/>
 
 - Key-value pairs needs to be inside double quates `""`
 
-<img src="PossibleValuesInJSON.JPG" alt="alt text" width="400" height="300"/>
+<img src="PossibleValuesInJSON.JPG" alt="alt text" width="150" />
 
 - In JS changing JSON string to JS Object
     - We cannot access `data.volume` since data in **string**, we need to convert to **JS object**
@@ -50,50 +51,49 @@ const parsedData = JSON.parse(data);
     - If we need send data to API and API acepts JSON
 - [JSONstandard](https://www.json.org/json-en.html)
 - [JSONformatter](https://jsonformatter.curiousconcept.com/)
-
 - Api testing tools
-- If you don't use postman, you can use [hoppscotch](https://hoppscotch.io/)
+- If you don't use postman, you can use [Hoppscotch](https://hoppscotch.io/)
 - Some API:s
-    - [catfact](https://catfact.ninja/)
-    - [swapi](https://swapi.dev/)
+    - [Catfact](https://catfact.ninja/)
+    - [Swapi](https://swapi.dev/)
 - HTTP verbs, HTTP request types
     - GET when retrieving data
     - POST usually for sending data
 - Returning status codes for given operation
-- [status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [Status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - 301 is redirect, if you type `www.google.co` browser will receive `301` redirect to `www.google.com`
-- [tvmaze](https://www.tvmaze.com/api)
-- [dadjoke] (https://icanhazdadjoke.com/api)
-- Common Pattern in API endpoints, to inform something is variable `:id` or `<id>` or `{{id}}`
+- [Tvmaze](https://www.tvmaze.com/api)
+- [Dadjoke](https://icanhazdadjoke.com/api)
+- Common Pattern in API endpoints, to inform something is variable `:id` or `<id>` or `{{id}}`. Example below
 
 <img src="endPointSpecs.JPG
-" alt="alt text" width="900"/>
+" alt="alt text" width="600"/>
 
 <img src="queryString.JPG
-" alt="alt text" width="900"/>
-
-<img src="queryStringExample.JPG
-" alt="alt text" width="900"/>
+" alt="alt text" width="400"/>
 
 - Quary String
     - Quary Strings **will be ignored** given website or web API, **unlees** its looking for this.
+    <img src="queryStringExample.JPG
+" alt="alt text" width="300"/>
+
     - **1.** end of url `?` indicating start of query string
     - **2.** any sort of key value pairs
     - **3.** Seperator for second variable
-- Lot of APIS are structured to using query strings [example](https://www.tvmaze.com/api)
+- Lot of APIS are structured to using query strings [Example](https://www.tvmaze.com/api)
     - `https://api.tvmaze.com/search/shows?q=girls` API functionality is using query string
 - HTTP headers way passing data with requests and responses
     - Key value pairs
 
-<img src="requestHeaders.JPG" alt="alt text" width="900"/>
+<img src="requestHeaders.JPG" alt="alt text" width="600"/>
 
-- Some API needs **headers** with request, like this API [dadjoke](https://icanhazdadjoke.com/api)
+- Some API needs **headers** with request, like this API [Dadjoke](https://icanhazdadjoke.com/api)
     - If you want JSON give me Accept header
     - Documents tels you if you need this
 
-<img src="ApiNeedsHeader.JPG" alt="alt text" width="900"/>
+<img src="ApiNeedsHeader.JPG" alt="alt text" width="600"/>
 
-<img src="oldWayOfQuerying.JPG" alt="alt text" width="900"/>
+<img src="oldWayOfQuerying.JPG" alt="alt text" width="600"/>
 
 - No support for promises
 - Old way querying APIS, no need to remember! XHRs
@@ -104,6 +104,7 @@ const parsedData = JSON.parse(data);
     - **Parse** resposen coming in text, need no Js object
     - Pretty **bad** for many calls
 ```
+
 // NOT AT ALL IMPORTANT TO REMEMBER ANY OF THIS CODE!
 
 const req = new XMLHttpRequest();
@@ -126,7 +127,7 @@ req.send();
 
 - **Fetch** API, improved way using Js
 
-<img src="fetchApi.JPG" alt="alt text" width="900"/>
+<img src="fetchApi.JPG" alt="alt text" width="400"/>
 
 - simple case using fetch `fetch(https://swapi.dev/api/people/1)`
 
@@ -166,7 +167,7 @@ loadStarWarsPeople();
 
 - **Axios** improvement to `fetch`.Axios using `Fetch` behind scene
 - not native for Js, library for making HTTP request
-- Popular [axios](https://github.com/axios/axios#installing)
+- Popular [Axios](https://github.com/axios/axios#installing)
 - For now import to .html to use 3rd party libary `<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>`
 
 - No need parse JSON out, better to use
@@ -222,12 +223,14 @@ const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${searchTerm}
 - Sometimes better use config object if there is many query string variables
   - adding values programmatically
 - `q` is documented in tvmaze api. Structure of variables is based on used API
+
 ```
     const config = { params: { q: searchTerm } } // query string object
     const res = await axios.get(`http://api.tvmaze.com/search/shows`, config); 
 ```
 
-<img src="parameterIgnored.JPG" alt="alt text" width="900"/>
+<img src="parameterIgnored.JPG" alt="alt text" width="800"/>
+
 
 ```
     const config = { params: { q: searchTerm , someRANDOMSTUFF: 'TOTALLYRANDOM'} }

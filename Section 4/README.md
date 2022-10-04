@@ -64,3 +64,21 @@ HTML: Next Steps & Semantics
 
 - Example adding style to these `spans`
 
+- `<hr>` makes line [hr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
+
+- `<br>` line brake [br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
+	- Uselfull inside paragraph to go next line
+
+<img src="brInAction.PNG" alt="alt text" width="400"/>
+
+- Linebrakes are ignore usless you put `<br>`
+
+<img src="brInActionVisualisation.PNG" alt="alt text" width="500"/>
+
+- Superscript `<sup>` [sup](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup)
+	- Text elevated from baseline
+	- Example `<sup><a href="somesource.com">[2]</a></sup>`
+<img src="subDemonstration.PNG" alt="alt text" width="150"/>
+
+- Subscript [sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
+	- Text lower from baseline

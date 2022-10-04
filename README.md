@@ -54,7 +54,7 @@ Insert certificate here when completed
 
 - Add more when time comes, JS kohdat opiskellut nyt voi edetä angulariin, palaa kun taas aikaa
 - TODO katso noi tehtävät lävitse ja katso nuo pienet typot, kun aikaa :D
-- TODO katso muotoilut lävitse .md filuista, katsottu 1-7 kappaleet
+- TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 28 kappaleet
 ## The Major Projects/Exercise
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
