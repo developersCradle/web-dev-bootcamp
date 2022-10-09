@@ -82,3 +82,30 @@ HTML: Next Steps & Semantics
 
 - Subscript `<sub>` [Sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 	- Text lower from baseline
+
+- HTML Entityes allows use different symbols which are hard to type or are reserved 
+
+
+<img src="htmlEntityes.PNG" alt="alt text" width="600"/>
+
+- [EntityCodes](https://html.spec.whatwg.org/multipage/named-characters.html)
+
+- Example writing less than symbol
+	- `&lt;` OR `&#60;`
+
+- We can use **Entity Name** or **Entity number**
+
+<img src="EntityName.PNG" alt="alt text" width="600"/>
+
+- [Stripe](https://stripe.com/en-fi) (has Markup) **vs** (uses Divs)[Medium](https://medium.com/)
+
+- Semantic markup, meaningful markup. They add meaning to markup
+- `<main>` is just like `<div>`
+- `<header>` is just like `<div>`
+- `<section>` is just like `<div>`
+- `<nav>` is just like `<div>`
+	- All these behave like `<div>`, but with different names
+- Meaningful markup helps automatics bots to identify stuff in website
+	- More friendly for other programs
+	- Better for screenreaders
+		- Acts as hooks
