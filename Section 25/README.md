@@ -47,7 +47,7 @@
     - We cannot have two callback functions for same event, we should use add event listener
 - **One** Adding event listener, best one!
    
-    <img src="addingEventListener.PNG" alt="alt text" width="800"/>
+    <img src="addingEventListener.PNG" alt="alt text" width="5400"/>
 
     - 1nd param, what we want to listen, 2nd callback what we want to  execute
 
@@ -87,7 +87,7 @@ const makeRandColor = () => {
 
 - We can generalize method and make it call `this`, which refers in this case who called it
 
-<img src="this.JPG" alt="alt text" width="800"/>
+<img src="this.JPG" alt="alt text" width="500"/>
 
 
 - We can add many functions with event listeners
@@ -109,7 +109,7 @@ document.querySelector('button').addEventListener('click', function (evt) {
 ```
 - Event object `evt`
 
-<img src="eventObject.PNG" alt="alt text" width="800"/>
+<img src="eventObject.PNG" alt="alt text" width="400"/>
 
 ```
 console.log(e.key); // could be different depending on keybord layout
@@ -133,14 +133,14 @@ tweetForm.addEventListener('submit', function (e) {
     e.preventDefault();
 ```
 
-- ´submit´ listens submit
+- `submit` listens submit events
 - `e.preventDefault();` prevents default behaviour firing, `<form action="/dogs"`> case, page would not be redirected to certain address
     - we could use it inside eventListener or form posting
     - default action form form is to make HTTP request to `<action>`
 - `const tweetInput = tweetForm.elements.tweet;`
     - Inside `form` there is elements `property` which holds elements inside form. Example our `<input type="text" name="tweet" placeholder="tweet">`. What we spesified to `name` will be saved inside `tweetForm.elements`
 
-- <img src="elemtsInsideForm.JPG" alt="alt text" width="800"/>
+- <img src="elemtsInsideForm.JPG" alt="alt text" width="600"/>
 
     - Elements inside form, `console.dir(tweetForm)`
 - There is many other event types like `change` or `input` event is when you change value and leave data box
@@ -152,7 +152,7 @@ input.addEventListener('input', function (e) {
 })
 ```
 
-<img src="eventBubling.JPG" alt="alt text" width="800"/>
+<img src="eventBubling.JPG" alt="alt text" width="600"/>
 
 - When button is clicked all `alerts` are shown. Its called **event bubbling**
 - We can stop event bubling for example using`e.stopPropagation();` inside event listener
@@ -165,7 +165,7 @@ button.addEventListener('click', function (e) {
 ```
 - `Event delegation` is strategy how implement event listeners
 
-<img src="EventDelagation.JPG" alt="alt text" width="600"/>
+<img src="EventDelagation.JPG" alt="alt text" width="400"/>
 
 - We want implement event listener to `<ul>` not to `<li>`s, we catch event inside ul to remove clicked `li` by `e.target.remove();`
 
