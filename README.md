@@ -58,6 +58,7 @@ Insert certificate here when completed
 ## The Major Projects/Exercise
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
+    * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_favorite_exercise_2.html)
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises

@@ -100,6 +100,7 @@ HTML: Next Steps & Semantics
 - [Stripe](https://stripe.com/en-fi) (has Markup) **vs** (uses Divs)[Medium](https://medium.com/)
 
 - Semantic markup, meaningful markup. They add meaning to markup
+	- People use these ones diffently
 - `<main>` is just like `<div>`
 - `<header>` is just like `<div>`
 - `<section>` is just like `<div>`
@@ -109,3 +110,20 @@ HTML: Next Steps & Semantics
 	- More friendly for other programs
 	- Better for screenreaders
 		- Acts as hooks
+- `<nav>` represents area for navigation links [Nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
+
+- Exanple usage of navs could be links in wikipedia page
+
+<img src="navExample.PNG" alt="alt text" width="600"/>
+
+- `<section>` just standard section element [Section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
+
+- `<article>` represens independently distributable or reusable content [Article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+	- For example weather widget 
+- `<aside>` element represents a portion of a document whose content is only indirectly related to the document's main content. [Aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
+
+- `<header>` introductory content [Header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
+
+- `<footer>` [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
+- ()
+- ()
