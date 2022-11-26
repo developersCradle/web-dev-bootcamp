@@ -125,5 +125,6 @@ HTML: Next Steps & Semantics
 - `<header>` introductory content [Header](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
 - `<footer>` [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
-- ()
-- ()
+- [Emmet](https://docs.emmet.io/)
+	- This is comes integrated inside vscode
+		-`!` start typing with this
