@@ -93,3 +93,95 @@ Section 5: HTML: Forms & Tables
 <img src="formsActionInAction.JPG" alt="alt text" width="500"/>
 
 
+
+<img src="input.JPG" alt="alt text" width="400"/>
+
+- Type is spesifies inputs
+
+```
+    <form action="/tacos">
+        <input type="text">
+        <input type="password">
+    </form>
+```
+
+- Placeholder holds what you should input, does not work for every input field
+
+- Labels are important inside forms, they are more than text labels indicating 
+    - They are for screen readers and also text is linked to input itself. If text is clicked -> affects also the input element
+
+<img src="labelForForms.JPG" alt="alt text" width="500"/>
+
+- Assosiating label with input, we can use two approaches
+    - **One** is using **id** attribute for `<input>` and use **for** for `<label>`
+    - Id shoulds be unique 
+        - Examble below 
+        ```
+
+        <div class="preference">
+            <label for="cheese">Do you like cheese?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </div>
+        ```
+    - **Two**, other way is way less common and older way
+     is to nest these together and not use **id** and **for**
+        - Examble below
+        ```
+        <p>
+            <!-- Alternative way to label an input (less common) -->
+            <label>
+                Enter a Number:
+                <input type="number" placeholder="enter a number" name="num" min="1" max="1000">
+            </label>
+        </p>
+        ```
+
+
+- **for** in action, when text is clicked (1.), spesified input should be focused (2.)
+
+<img src="forInAction.JPG" alt="alt text" width="800"/>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+    <h2>Our First Form</h2>
+
+    <form action="/tacos">
+        <label for="username">Enter a Username:</label>
+        <input type="text">
+        <input type="password">
+        <input type="username" id="username"> 
+    </form>
+
+</body>
+
+</html>
+
+```
+
+- `<button>` inside `<form>` default behaviour is to submit the form 
+
+```
+     <!-- this button doesn't submit the form b/c of the "type" attribute -->
+        <button type="button">Regular button (won't submit)</button>
+        <!-- This button submits the form! -->
+        <button>Submit!!!</button>
+        <!-- So does this one: -->
+        <input type="submit" value="Click Me!">
+```
+
+- `<button>` with `type=button` does not submit the form 
+
+
+- **name** is associated with input when submitting the data inside form
+
+<img src="nameInAction.JPG" alt="alt text" width="800"/>
