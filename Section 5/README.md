@@ -266,3 +266,43 @@ Section 5: HTML: Forms & Tables
 ```
   <textarea id="requests" rows="10" cols="40" name="Requests?" placeholder="Type something here"></textarea>
 ```
+
+- HTML5 validations
+    - There is **server** and **client** side validations
+- In old days only **server** validation was common
+    - Submit form -> in server validate -> return was it valid
+
+- `required` attribute for input fields to front-end validation
+    - Example below
+    ```
+          <input type="text" id="user" name="username" minlength="5" maxlength="20" required>
+    ```
+- We can use **build in pattern**, example in email field 
+    - `<input type="email" id="email" name="email" required>`
+```
+
+ <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <p>
+            <label for="first">Enter First Name</label>
+            <input type="text" id="first" name="first" required>
+        </p>
+        <p>
+            <label for="user">Username</label>
+            <input type="text" id="user" name="username" minlength="5" maxlength="20" required>
+        </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+        </p>
+        <p>
+            <label for="website">Website</label>
+            <input type="url" id="website" name="website">
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+```
