@@ -77,7 +77,8 @@ Section 5: HTML: Forms & Tables
                 <th rowspan="2">Flighted</th>
             </tr>
 ```
-- Forms are collected inside container, callled form element
+
+- Form collect different elements into one groub. Each elemnt inside form are called form element
 
 <img src="formElement.JPG" alt="alt text" width="500"/>
 
@@ -97,6 +98,7 @@ Section 5: HTML: Forms & Tables
 <img src="input.JPG" alt="alt text" width="400"/>
 
 - Type is spesifies inputs
+    - We can use many different inputs with form
 
 ```
     <form action="/tacos">
@@ -185,3 +187,82 @@ Section 5: HTML: Forms & Tables
 - **name** is associated with input when submitting the data inside form
 
 <img src="nameInAction.JPG" alt="alt text" width="800"/>
+
+
+```
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="meal">Please Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for="cheese">Amount of Cheese:</label>
+            <input type="range" id="cheese" min="1" max="100" value="75" name="cheese_level">
+        </p>
+
+        <p>
+            <label for="requests">Any Special Requests?</label>
+            <br>
+            <textarea id="requests" rows="10" cols="40" name="Requests?" placeholder="Type something here"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+
+```
+
+- Radio button only one can be selected
+    - We need to assosiate them, we can uses this making them same name example below
+    ```
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+    ```
+- We need use `value` when using radio buttons, problem comes when we send form foward
+    - Example below
+    ```
+          <input type="radio" id="dewey" name="drone" value="dewey">
+    ```
+- `<select>` is dropdown element
+    - Selects needs `<select>` 
+        - With `<option>` elements
+
+    ```
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegetarian</option>
+                <option value="steak">Steak</option>
+            </select>
+    ```
+
+- We can use slider input [range](https://developer.mozilla.org/en-US/docs/Web/API/Range)
+
+```
+<input type="range" id="cheese" min="1" max="100" value="75" name="cheese_level">
+```
+
+- Textarea input
+
+```
+  <textarea id="requests" rows="10" cols="40" name="Requests?" placeholder="Type something here"></textarea>
+```
