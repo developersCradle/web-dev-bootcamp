@@ -16,7 +16,7 @@ Insert certificate here when completed
 - [X] [Section 02](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%202) - An Introduction to Web Development
 - [X] [Section 03](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%203) - HTML: The Essentials
 - [x] [Section 04](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%204) - HTML: Next Steps & Semantics
-- [ ] [Section 05](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%205) - HTML: Forms & Tables
+- [x] [Section 05](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%205) - HTML: Forms & Tables
 - [ ] [Section 06](#) - CSS: The Very Basics
 - [ ] [Section 07](#) - The World of CSS Selectors
 - [ ] [Section 08](#) - The CSS Box Model
@@ -59,6 +59,8 @@ Insert certificate here when completed
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
     * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_favorite_exercise_2.html)
+* Section 5 Exercises
+    * [formMarathon]()
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
