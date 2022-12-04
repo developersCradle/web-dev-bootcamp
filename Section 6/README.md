@@ -24,5 +24,11 @@
 
 - [Css](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
+- We can use **style** inside each element
 
+`<button style="background-color: palegreen">I AM BUTTON</button>`
+
+- Or beter way add external css
+
+<img src="linkingCssToCode.JPG" alt="alt text" width="400"/>
 
