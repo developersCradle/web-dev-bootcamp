@@ -59,10 +59,13 @@ Insert certificate here when completed
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
     * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_favorite_exercise_2.html)
+* Section 05 Exercises
+    * [Search Hack](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%205/redditHack.html)
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
-    * [59_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_59.html)
+    * [59_Exercise](https://htmlpreview.github.io/?https://github.c
+    om/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_59.html)
     * [60_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_60.html) 
     * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **<- Random Color game**
 * Section 28 Exercises
