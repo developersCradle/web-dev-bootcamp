@@ -67,6 +67,7 @@
             - But, within given **element**
     - [Text-align](https://developer.mozilla.org/en-US/docs/Web/CSS/text-align)
     - Example below
+
 ```
 h1 {
         text-align: center;
@@ -76,4 +77,51 @@ h1 {
 <img src="centerAlligment.PNG" alt="alt text"  width="900"/>
 
 - `<h1>` takes whole block, so wihth `text-align: center` text will be **centered!**
- 
+- `font-weight:`
+    - Can be set number or keywords
+- [font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
+- `text-decoration: underline`
+    - Underlines text
+    - Can be more complicated than this
+        - Blue underline `text-decoration: blue underline`
+        - This can be used when wana stride trought or remove underline
+            - `text-decoration: none`
+
+- `line-height` height of each line of text
+
+<img src="lineHeight.JPG" alt="alt text"  width="400"/>
+
+- Controll spaces between letters `letter-spacing` 
+
+<img src="LetterSpasing.JPG" alt="alt text"  width="300"/>
+
+- Font size property controlls size of font
+    - Many type to input value
+    - [font-size](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
+- Some example to input font-size
+
+```
+font-size: xx-large;
+font-size: xxx-large;
+
+/* <relative-size> values */
+font-size: smaller;
+font-size: larger;
+```
+- There is different types to input units
+
+<img src="inputType.JPG" alt="alt text"  width="900"/>
+
+- **Absolute** because unit size does not change regardless of its parent
+
+<img src="pixelsAbsoluteUnit.JPG" alt="alt text"  width="900"/>
+
+- **Px** should not be used in responsive websites
+    - There is better units than Pixels
+        - We will learn more of them later 
+- Font Family, changing font 
+- Browsers have some build-in fonts
+- Easy way to change font `font-family: Verdana`
+- [font-family](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+- [cssFont](https://www.cssfontstack.com/)
+        
