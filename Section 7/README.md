@@ -42,9 +42,34 @@ img {
 
 - Class selector uses `.`
     - Affects elemts with class tag
-    
+    - todo laita kuva
 ```
 .complete {
     color: white;
 }
+```
+
+- Descendant Selector
+
+<img src="DecendatnSelector.PNG" alt="alt text" width="500"/>
+
+- Uses space between
+- Selects all `<a>` nested inside `<li>` 
+
+```
+span a {
+    color: red;
+}
+```
+
+<img src="DecendatnSelectorWorking.PNG" alt="alt text" width="500"/>
+
+- Descendant selectors looks below first level untill it reaches point or the end. In this case finds `<a>` which is not clearly at first descendant
+
+```
+
+footer a {
+    color: red;
+}
+
 ```
