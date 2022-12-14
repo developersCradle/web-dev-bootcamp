@@ -98,5 +98,22 @@ input + button {
 
 <img src="DirectChild.PNG" alt="alt text" width="500"/>
 
-//jäin tähän 
+- We use `>`, li:s which are direct childs of div, will be selected 
+
+```
+footer > a {
+    color: #457b9d;
+}
+```
+- Below Direct Child in action
+    - Looks element `<a>` which has to be direct child of `<footer>`
+
+<img src="DirectChildInAction.PNG" alt="alt text" width="600"/>
+
+1. Only last `<a>` should get affected.
+
+<img src="DirectChildInActionResult.PNG" alt="alt text" width="600"/>
+
+- As you can see last **2.** `<a>`, will get affected not `<a>` in **s1.**
+
 TODO KATSO SELECTORIT ennen 72 tehtävää
