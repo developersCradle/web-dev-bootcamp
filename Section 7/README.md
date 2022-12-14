@@ -65,7 +65,7 @@ span a {
 <img src="DecendatnSelectorWorking.PNG" alt="alt text" width="500"/>
 
 - Descendant selectors looks below first level untill it reaches point or the end. In this case finds `<a>` which is not clearly at first descendant
-
+ 
 ```
 
 footer a {
@@ -73,3 +73,30 @@ footer a {
 }
 
 ```
+
+<img src="AdjacentSelector.PNG" alt="alt text" width="500"/>
+
+- Selects all `<p>` which comes after `<h1>`
+    - Need to be in same level
+
+- In HTML
+
+```
+<input type="text" placeholder="search" id="search">
+<button>Log In</button>
+```
+
+```
+input + button {
+    background-color: pink;
+}
+```
+
+<img src="AdjacentSelectorInAcation.PNG" alt="alt text" width="500"/>
+
+- Adjacent Selector would work like such
+
+<img src="DirectChild.PNG" alt="alt text" width="500"/>
+
+//jäin tähän 
+TODO KATSO SELECTORIT ennen 72 tehtävää
