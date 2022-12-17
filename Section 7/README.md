@@ -116,4 +116,7 @@ footer > a {
 
 - As you can see last **2.** `<a>`, will get affected not `<a>` in **s1.**
 
-TODO KATSO SELECTORIT ennen 72 tehtävää
+
+<img src="attributeSelector.PNG" alt="alt text" width="600"/>
+
+todo jäin attrivute selector
