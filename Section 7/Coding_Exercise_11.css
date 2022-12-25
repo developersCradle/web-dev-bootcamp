@@ -1,0 +1,9 @@
+/* WRITE YOUR CODE IN HERE!!!!  */
+.square{
+    background-color: red;
+}
+.square:nth-child(2n)
+{
+    background-color: black;
+}
+

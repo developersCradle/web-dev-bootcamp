@@ -119,4 +119,98 @@ footer > a {
 
 <img src="attributeSelector.PNG" alt="alt text" width="600"/>
 
-todo jäin attrivute selector
+- Selects based on attribute 
+
+```
+
+input[type="password"] {
+    color: green;
+}
+
+```
+
+- Example using Attribute Selector Following element would be selected and made to green
+
+<img src="passordSelectedAtrributeSelector.PNG" alt="alt text" width="600"/>
+
+- [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+
+- `input[type="password"] ` common usage of AttributeSelctor
+
+<img src="pseudoClasses.PNG" alt="alt text" width="600"/>
+
+- **pseudo-class** Gives extra modifiers to selected element with selectors
+    - They start with `:`
+    - Some examples below
+    - They are states
+
+- `:hover` when element is hovered over
+    - Hover is very common
+
+```
+
+button:hover {
+    background-color: red;
+}
+
+```
+
+- `:active` when element active, cliked example
+
+- In chrome DevTools you can inspect these states and force them on given element
+
+<img src="statesInChrome.PNG" alt="alt text" width="600"/>
+
+
+- [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+
+
+- `:end-of-type` helps select nth element, example every third one
+
+
+```
+
+.post:nth-of-type(3n){
+    backgroud-color: white;
+}
+
+```
+
+- Every third gets selelected
+
+<img src="every3thrd.PNG" alt="alt text" width="600"/>
+
+- First third gets selected, whitout `n`
+
+```
+
+.post:nth-of-type(3){
+    backgroud-color: white;
+}
+
+```
+
+- Only third gets selected 
+
+<img src="onlythirdGetsSelected.PNG" alt="alt text" width="600"/>
+
+- **Pseudo elements**, modifiers to selectors `::` is used to indicate this one, but most browsers don't care `:` could also work
+    - Pseudo elements are things which we are selecting
+<img src="pseudoElements.PNG" alt="alt text" width="600"/>
+
+- [PseudoElements](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
+- Example `first-letter` pseudo eloment
+
+```
+
+h2::first-letter {
+    font-size 50px;
+}
+
+```
+
+<img src="FirstLetterWorking.PNG" alt="alt text" width="600"/>
+
+
+- todo katso oleelliset tehtävät listaan
