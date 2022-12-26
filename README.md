@@ -53,7 +53,7 @@ Insert certificate here when completed
 - [ ] [Section 39](#) - YelpCamp: Campgrounds CRUD
 
 - Add more when time comes, JS kohdat opiskellut nyt voi edetä angulariin, palaa kun taas aikaa
-- TODO katso noi tehtävät lävitse ja katso nuo pienet typot, kun aikaa :D
+- TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
 - TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 28 kappaleet
 ## The Major Projects/Exercise
 * Section 03 Exercises
@@ -62,6 +62,11 @@ Insert certificate here when completed
 * Section 5 Exercises
     * [Search Hack](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%205/redditHack.html)
     * [formMarathon](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%205/marathonForm.html)
+* Section 7 Exercises
+    * [09_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_9.html)
+    * [10_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_10.html)
+    * [11_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/Coding_Exercise_11.html)
+
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
@@ -72,6 +77,7 @@ Insert certificate here when completed
     * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **<- TV Show Search App**
 - Todo jäin 18kpl katso formatointi ja typot
 - Todo kts tehtävät ja lisäää    
+- Todo muuta tehtävien nimetydehnmukaiseksi ja katso nuoli ja boldaus
 
 
 

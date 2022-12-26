@@ -40,16 +40,18 @@ img {
 
 - **Class Selector**
 
+<img src="classSelector.PNG" alt="alt text" width="500"/>
+
 - Class selector uses `.`
     - Affects elemts with class tag
-    - todo laita kuva
+    
 ```
 .complete {
     color: white;
 }
 ```
 
-- Descendant Selector
+- **Descendant Selector**
 
 <img src="DecendatnSelector.PNG" alt="alt text" width="500"/>
 
@@ -105,6 +107,7 @@ footer > a {
     color: #457b9d;
 }
 ```
+
 - Below Direct Child in action
     - Looks element `<a>` which has to be direct child of `<footer>`
 
@@ -137,7 +140,7 @@ input[type="password"] {
 
 - `input[type="password"] ` common usage of AttributeSelctor
 
-<img src="pseudoClasses.PNG" alt="alt text" width="600"/>
+<img src="pseudoClasses.PNG" alt="alt text" width="500"/>
 
 - **pseudo-class** Gives extra modifiers to selected element with selectors
     - They start with `:`
@@ -212,5 +215,44 @@ h2::first-letter {
 
 <img src="FirstLetterWorking.PNG" alt="alt text" width="600"/>
 
+- Order where css is defined matters
 
-- todo katso oleelliset tehtävät listaan
+<img src="Cascade.PNG " alt="alt text" width="600"/>
+
+- First h1 is red, then it will be purple
+    - Up to down
+
+- **Specificity** tells which selectors get applied to element in the end
+    - Conflict more than one style is 
+    trying to apply to given element
+
+
+<img src="conflictExample.PNG" alt="alt text" width="600"/>
+
+- Thumb rule which wins is illustrated below
+
+<img src="thumbRuleAboutSpesificity.PNG" alt="alt text" width="600"/>
+
+- There is formula for **spesificity**, no need to remember this
+
+- [Specifity Calculator](https://specificity.keegan.st/)
+
+- We can inspect which css is being applied to given element, in order to troubles shoot specificity problems
+
+<img src="InspectingWhichCssIsApplied.PNG" alt="alt text" width="600"/>
+
+- Id selector is very spesific, therefore its applied
+
+- Chrome Dev Tools shows which are losing specificity batlle by crossing over
+
+<img src="losingSpecificity.PNG" alt="alt text" width="500"/>
+
+
+- Chrome Dev Tools showing which is losing specificity battle of background color
+
+<img src="ChromeTools.PNG" alt="alt text" width="500"/>
+
+- You can also force states into buttons for example to see why some hover css is not working
+
+<img src="forcingStateInDevTools.PNG" alt="alt text" width="500"/>
+
