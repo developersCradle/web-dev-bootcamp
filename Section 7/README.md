@@ -256,3 +256,32 @@ h2::first-letter {
 
 <img src="forcingStateInDevTools.PNG" alt="alt text" width="500"/>
 
+
+
+<img src="InlineStyles.PNG" alt="alt text" width="500"/>
+
+- Inline Styles are more specific than any other what we been talking
+    - Generally try not use **Inline Style**
+
+- Example using inline style
+    - If direct id would be used **Inline Style** would override this one 
+
+<img src="usingInlineStyle.PNG" alt="alt text" width="500"/>
+
+- `!important` should not used if not nesseceray
+    - Overrides specificity of css
+    - Some cases use **!important** is to override 3rd party styles from some external library if needed for example.
+
+```
+body {
+    color 
+}
+```
+ 
+
+- Inheritance can be seen from ChromeDevTools as such
+
+<img src="InheritanceInChromeDevTools.PNG" alt="alt text" width="500"/>
+ 
+
+ - Todo katso kappaleen typot ja tehtävät ja vika video
