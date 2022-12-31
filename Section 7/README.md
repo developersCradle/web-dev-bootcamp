@@ -273,15 +273,56 @@ h2::first-letter {
     - Some cases use **!important** is to override 3rd party styles from some external library if needed for example.
 
 ```
-body {
-    color 
+button {
+    background-color: magenta !important; 
 }
 ```
  
+**Inheritance**
 
-- Inheritance can be seen from ChromeDevTools as such
+- Such css would make whole body and its children **red**, if we haven't explicitly defined its childrens so
+
+```
+
+body {
+    color: red;
+}
+
+```
+
+<img src="redBeingApplied.PNG" alt="alt text" width="700"/>
+
+
+- We can inspect inheritance from ChromeDevTools as such
 
 <img src="InheritanceInChromeDevTools.PNG" alt="alt text" width="500"/>
  
 
- - Todo katso kappaleen typot ja tehtävät ja vika video
+```
+
+form {
+    color: greenyellow;
+}
+
+```
+
+<img src="formInheritanceNotWokring.PNG" alt="alt text" width="500"/>
+ 
+- We can fix this putting property `inherit`
+
+```
+button, input {
+    color: inherit;
+}
+```
+
+<img src="formInheritanceWokring.PNG" alt="alt text" width="500"/>
+
+- Now it inherits color from what color is defined as most parent
+
+ - Some elements are not inheritable, you need check documentations for this. Example `border`
+    - Example documentation [Border](https://developer.mozilla.org/en-US/docs/Web/CSS/border)
+    - Border would be **not** intheritable     
+
+
+<img src="inheritableElements.PNG" alt="alt text" width="500"/>
