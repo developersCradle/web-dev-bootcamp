@@ -93,3 +93,31 @@ div {
 - `border-radius` is to controll corners
     - [Border Radius](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius) 
     - People using this to make different shapes in css
+
+<img src="BorderApplied.PNG" alt="alt text" width="500"/>
+
+- Padding is space between **border** and **content** itself
+
+- 4 Induvidual Propertyes
+
+```
+padding-left
+padding-right
+padding-bottom
+padding-top
+```
+
+- Shorthand Property `padding`
+
+- [Padding](https://developer.mozilla.org/en-US/docs/Web/CSS/padding)
+
+<img src="paddingInDeveloperTools.PNG" alt  b="alt text" width="500"/>
+
+- **Blue** is the content
+- **Green** is the padding itself
+
+- Padding is pretty common to take it more space
+
+<img src="DifferentWaysUsingPadding.PNG" alt="alt text" width="500"/>
+
+- There is more **than one** way to set padding
