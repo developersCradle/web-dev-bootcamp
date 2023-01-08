@@ -121,3 +121,58 @@ padding-top
 <img src="DifferentWaysUsingPadding.PNG" alt="alt text" width="500"/>
 
 - There is more **than one** way to set padding
+
+
+<img src="marging.PNG" alt="alt text" width="500"/>
+
+- Margin is the space outside of border 
+
+```
+margin-left
+margin-right
+margin-bottom
+margin-top
+```
+
+- Shorthand Property `padding`
+
+<img src="DifferentWaysUsingMargin.PNG" alt="alt text" width="500"/>
+
+- In developer tools you can see **margin** as such, color **orange**
+
+<img src="MarginDevTools.PNG" alt="alt text" width="500"/>
+
+- Display property
+
+- Lot of propertyes in inline are not supported, we focus will focus three of them
+
+<img src="displayNotSupported.PNG" alt="alt text" width="500"/>
+
+- [Display](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
+
+<img src="displayProperty.PNG" alt="alt text" width="500"/>
+
+
+- As we can see `h1` are block level elements 
+and `span` are inline level elements
+
+<img src="blockLevel.PNG" alt="alt text" width="500"/>
+
+- We can set `h1` as inline level elements and `span` as block level element
+
+```
+
+h1 {
+    display: inline;
+}
+
+span {
+    display: block;
+}
+
+```
+
+<img src="blockLevelAfter.PNG" alt="alt text" width="500"/>
+
+- Marging and padding and height 
+jäin 5:00
