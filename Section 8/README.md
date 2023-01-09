@@ -156,7 +156,7 @@ margin-top
 - As we can see `h1` are block level elements 
 and `span` are inline level elements
 
-<img src="blockLevel.PNG" alt="alt text" width="500"/>
+c
 
 - We can set `h1` as inline level elements and `span` as block level element
 
@@ -174,5 +174,25 @@ span {
 
 <img src="blockLevelAfter.PNG" alt="alt text" width="500"/>
 
-- Marging and padding and height 
-jäin 5:00
+- **Inline elements** dont get affected by `width` and `height`
+    - `padding` is not respected by other elements when inline element
+        - Will not push elements away
+
+<img src="margingIsRespected.PNG" alt="alt text" width="500"/>
+
+- As you can see margin is respected is horizontal axis not vertical
+
+- **block level** elements behaves litle bit diferently, following propertyes are respected 
+    - `width`
+    - `height`
+    - `margin`
+    - `padding`
+
+- With block level these propertyes gets respected as exmple below
+
+<img src="blockLevelElementsRespected.PNG" alt="alt text" width="500"/>
+
+- Block level element to behave like inline element you can use `display: inline-block;`
+
+
+<img src="blockLevelAsInline.PNG" alt="alt text" width="500"/>
