@@ -196,3 +196,78 @@ span {
 
 
 <img src="blockLevelAsInline.PNG" alt="alt text" width="500"/>
+
+- Trick with display to hide elemnt is to use `display:none`
+
+<img src="percentage.PNG" alt="alt text" width="600"/>
+
+
+- Following css would make such, takes half of parent
+
+```
+section {
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+}
+```
+
+<img src="50PercentWidth.PNG" alt="alt text" width="500"/>
+
+- Precentage are relatinve units
+
+- Percentage **behaves differently** depending on element 
+    - Example. `line-height`
+        - Has nothing to do with parent element `line-height`, takes `%` of the `font-size`
+
+```
+
+font-size 40px;
+border 1px solid black;
+line-height: 200%;
+
+```
+
+<img src="em.PNG" alt="alt text" width="500"/>
+
+- `1em` is same as its parent element in case of `font-size` 
+
+<img src="parentEmFontSize.PNG" alt="alt text" width="300"/>
+
+- In case `h2`  `font-size: 2em`would get **60px** as font size
+
+- `em` is common used in `padding` and `margin`
+    - `1em` in these are litle **bit different**, its `1em` of font-size element itself
+
+```
+
+h2 {
+    font-size: 5m; // Em refers in font-size of parent 
+    margin-left: 1em; //Em in margin refers to font-size of the element
+}
+
+```
+
+<img src="wantToGrow.PNG" alt="alt text" width="300"/>
+
+- If we want to grow button by ratios we need to use `em`
+    - Pixels won't work
+
+
+- We can make adjusting button with following css
+
+```
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius 0.5em;
+    background-color: green;
+    color: white;
+}
+```
+
+<img src="buttonChnged.PNG" alt="alt text" width="300"/>
