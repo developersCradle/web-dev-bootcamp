@@ -270,4 +270,10 @@ button {
 }
 ```
 
+- As you can see `em`: s in action
+    - Button gets scaled based on font-size
+
 <img src="buttonChnged.PNG" alt="alt text" width="300"/>
+
+
+- One issue about `em`: s
