@@ -26,11 +26,9 @@
 - Setting width for content box
 
 ```
-
 div {
     width: 200px;
 }
-
 ```
 
 <img src="ContentBoxSmaller.PNG" alt="alt text" width="600"/>
@@ -48,14 +46,12 @@ div {
 - Pixels are pretty common unit for defining border
 
 ```
-
 #one {
     background-color: red;
     border-width: 5px;
     border-color: black;
     border-style: solid;
 }
-
 ```
 - We need all these three to show border
 
@@ -70,23 +66,19 @@ div {
 
 
 ```
-
 #three {
     border-width: 4px;
     border-color: black;
     border-style: solid;
 }
-
 ```
 
 - Changes to with shortcut pattern to  such
 
 ```
-
 #three{
     border: 4px solid black;
 }
-
 ```
 - This is more pattern to set css propertyes
 
@@ -161,7 +153,6 @@ c
 - We can set `h1` as inline level elements and `span` as block level element
 
 ```
-
 h1 {
     display: inline;
 }
@@ -169,7 +160,6 @@ h1 {
 span {
     display: block;
 }
-
 ```
 
 <img src="blockLevelAfter.PNG" alt="alt text" width="500"/>
@@ -225,11 +215,9 @@ div {
         - Has nothing to do with parent element `line-height`, takes `%` of the `font-size`
 
 ```
-
 font-size 40px;
 border 1px solid black;
 line-height: 200%;
-
 ```
 
 <img src="em.PNG" alt="alt text" width="500"/>
@@ -244,19 +232,16 @@ line-height: 200%;
     - `1em` in these are litle **bit different**, its `1em` of font-size element itself
 
 ```
-
 h2 {
     font-size: 5m; // Em refers in font-size of parent 
     margin-left: 1em; //Em in margin refers to font-size of the element
 }
-
 ```
 
 <img src="wantToGrow.PNG" alt="alt text" width="300"/>
 
 - If we want to grow button by ratios we need to use `em`
     - Pixels won't work
-
 
 - We can make adjusting button with following css
 
@@ -273,7 +258,46 @@ button {
 - As you can see `em`: s in action
     - Button gets scaled based on font-size
 
-<img src="buttonChnged.PNG" alt="alt text" width="300"/>
-
+<img src="buttonChnged.PNG" alt="alt text" width="200"/>
 
 - One issue about `em`: s
+
+```
+ul {
+    font-size: 1.5em;
+}
+```
+
+- With **nested** `ul`: s  `em` will bring such problem
+    - Font-size will be based on parent font-size
+
+<img src="problemWithEm.PNG" alt="alt text" width="600"/>
+
+<img src="rem.PNG" alt="alt text" width="600"/>
+
+- Same as `em`: s, but they derive **root element html** font-size
+
+
+```
+// root element
+<html lang="en">
+ 
+// or we can change it in css
+html {
+    font-size:10px
+}
+```
+
+```
+ul {
+    font-size: 0.8rem;
+}
+
+```
+
+- Using `rems` there is no snowballing effect
+    - Now we have so scale where we can depend on throught document
+
+<img src="ulUsingRems.PNG" alt="alt text" width="200"/>
+
+- Em:s are good if you want to make some compoment which you want scale up or down
