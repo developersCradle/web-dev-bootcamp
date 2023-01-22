@@ -20,7 +20,7 @@ Insert certificate here when completed
 - [x] [Section 06](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%206) - CSS: The Very Basics
 - [x] [Section 07](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%207) - The World of CSS Selectors
 - [x] [Section 08](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%208) - The CSS Box Model
-- [ ] [Section 09](#) - Other Assorted Useful CSS Properties
+- [ ] [Section 09](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%209) - Other Assorted Useful CSS Properties
 - [ ] [Section 10](#) - Responsive CSS & Flexbox
 - [ ] [Section 11](#) - Pricing Panel Project
 - [ ] [Section 12](#) - CSS Frameworks: Bootstrap
