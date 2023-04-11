@@ -72,15 +72,15 @@
 
 - Element moves down and right 
 
-//Todo jäin absolute arvoon
 
-- `position:absolute` set position relative where it would be, gets affected by `top`,`right`,`bottom`,`left`
+
+- `position:absolute` element is removed from normal document flow
 
 
 
 ```
-#relative #middle {
-    postion: relative;
+#absolute #middle {
+    postion: absolute;
     top: 50px;
     left: 50px;
 }
