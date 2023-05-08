@@ -54,7 +54,8 @@
 
 <img src="static.PNG" alt="alt text" width="200"/>
 
-- Middle one is static one
+- Middle one is static one, **nothing changes**
+    - For example ` top: 100px ` has not effect if element is **static**
 
 - `position:relative` set position relative where it would be, gets affected by `top`,`right`,`bottom`,`left`
 
@@ -65,6 +66,7 @@
     left: 50px;
 }
 ```
+
 - Following would push element down from **top: 50px** and push from **left:50px**
 
 
@@ -72,16 +74,72 @@
 
 - Element moves down and right 
 
-//Todo jäin absolute arvoon
 
-- `position:absolute` set position relative where it would be, gets affected by `top`,`right`,`bottom`,`left`
-
+- `position:absolute` element is removed from normal document flow
 
 
 ```
 #absolute #middle {
-    postion: relative;
+    postion: absolute;
+}
+```
+
+<img src="absoluteInProgress.PNG" alt="alt text" width="200"/>
+
+- 1. With **Absolute** element is hidden behind the middle element 
+    - Removes completly from document flow
+```
+#absolute #middle {
+    postion: absolute;
     top: 50px;
     left: 50px;
 }
 ```
+
+<img src="absoluteInProgress2.PNG" alt="alt text" width="200"/>
+
+- It is positioned relative to its closest positioned ancestor, it is placed initial containing block
+    - Basicly means `<body>`
+    - Positioned means, if element is anything other than **static** 
+
+- If in otherhand we positon parent element as `relative`, `absolute` behaves litle bit differently
+
+```
+#absolute {
+    position : relative; 
+}
+```
+
+```
+#absolute #middle {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+```
+
+<img src="relativeAbsolutePosition.PNG" alt="alt text" width="200"/>
+
+- As long parent element is positioned, `absolute` behaves relative to parent
+
+- Last one will be `fixed`
+
+```
+#fixed #middle {
+    postion: fixed;
+    top: 0;
+    left: 0;
+}
+```
+
+<img src="Fixed.PNG" alt="alt text" width="200"/>
+
+- It will go all way to of element, it will stay there and its removed from document flow
+
+
+- You could make navigation bar using fixed values to stay on top
+
+<img src="navBarWithFixed.PNG" alt="alt text" width="500"/>
+
+
