@@ -79,7 +79,7 @@
 
 
 ```
-#relative #middle {
+#absolute #middle {
     postion: relative;
     top: 50px;
     left: 50px;

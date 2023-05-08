@@ -64,6 +64,8 @@
     tasButton.addEventListener('click', twist)
     tasButton.addEventListener('click', shout)
     ```
+	
+- An event listener is associated with target element
 
 - Random Color Game
 
@@ -175,6 +177,15 @@ tweetsContainer.addEventListener('click', function (e) {
 })
 
 ```
+
+- Not all event will bubble 
+
+<img src="bubbling.JPG" alt="alt text" width="300"/>
+
+- BOM(Browser Object Model)
+    - No standard, browsers are free to implement **BOM**
+
+<img src="bomInBroswers.JPG" alt="alt text" width="400"/>
 
 
 
