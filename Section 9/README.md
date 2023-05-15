@@ -143,3 +143,4 @@
 <img src="navBarWithFixed.PNG" alt="alt text" width="500"/>
 
 
+- Todo selvitä css sekoilu
