@@ -11,6 +11,9 @@ All course material from The Web Developer Bootcamp 2022 by Colt Steele
 
 Insert certificate here when completed
 
+**Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
+
+
 ## Progress
 - [x] Section 01 - Course Orientation
 - [X] [Section 02](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%202) - An Introduction to Web Development
@@ -51,6 +54,28 @@ Insert certificate here when completed
 - [ ] [Section 37](#) - Connecting To Mongo With Mongoose
 - [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
 - [ ] [Section 39](#) - YelpCamp: Campgrounds CRUD
+- [ ] [Section 40](#) -
+- [ ] [Section 41](#) -
+- [ ] [Section 42](#) -
+- [ ] [Section 43](#) -
+- [ ] [Section 44](#) -
+- [ ] [Section 45](#) -
+- [ ] [Section 46](#) -
+- [ ] [Section 47](#) -
+- [ ] [Section 48](#) -
+- [ ] [Section 49](#) -
+- [ ] [Section 50](#) -
+- [ ] [Section 51](#) -
+- [ ] [Section 52](#) -
+- [ ] [Section 53](#) -
+- [ ] [Section 54](#) -
+- [ ] [Section 55](#) -
+- [ ] [Section 56](#) -
+- [ ] [Section 57](#) -
+- [ ] [Section 58](#) -
+- [ ] [Section 59](#) -
+- [x] [Section 60](#) - Introducing React
+- [ ] [Section 61](#) - JSX In Detail
 
 - Add more when time comes, JS kohdat opiskellut nyt voi edetä angulariin, palaa kun taas aikaa
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
@@ -79,7 +104,7 @@ Insert certificate here when completed
 - Todo jäin 18kpl katso formatointi ja typot
 - Todo kts tehtävät ja lisäää    
 - Todo muuta tehtävien nimetydehnmukaiseksi ja katso nuoli ja boldaus
-
+- Todo joku css liittyvä projekti ja linkkaa tänne, niin saa ajattua opit loppuun asti
 
 
 
