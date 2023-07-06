@@ -99,4 +99,3 @@ function Hello() {
 ```
 - Then we call it in our App 
 
-<img src="CallingOurOwnComponent.JPG" alt="alt text" width="700"/>

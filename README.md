@@ -74,8 +74,20 @@ Insert certificate here when completed
 - [ ] [Section 57](#) -
 - [ ] [Section 58](#) -
 - [ ] [Section 59](#) -
-- [x] [Section 60](#) - Introducing React
-- [ ] [Section 61](#) - JSX In Detail
+- [x] [Section 60](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2060) - Introducing React
+- [ ] [Section 61](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2061) - JSX In Detail
+- [ ] [Section 62](#) - Local React Apps With Vite
+- [ ] [Section 63](#) - Working With Props
+- [ ] [Section 64](#) - Shopping List Demo: keys, prop types, and more!
+- [ ] [Section 65](#) - React Events
+- [ ] [Section 66](#) - The Basics of React State
+- [ ] [Section 67](#) - Intermediate State Concept
+- [ ] [Section 68](#) - Component Design
+- [ ] [Section 69](#) - React Forms
+
+
+
+
 
 - Add more when time comes, JS kohdat opiskellut nyt voi edetä angulariin, palaa kun taas aikaa
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
