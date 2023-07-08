@@ -76,8 +76,8 @@ Insert certificate here when completed
 - [ ] [Section 59](#) -
 - [x] [Section 60](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2060) - Introducing React
 - [x] [Section 61](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2061) - JSX In Detail
-- [ ] [Section 62](#) - Local React Apps With Vite
-- [ ] [Section 63](#) - Working With Props
+- [x] [Section 62](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2062) - Local React Apps With Vite
+- [ ] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
 - [ ] [Section 64](#) - Shopping List Demo: keys, prop types, and more!
 - [ ] [Section 65](#) - React Events
 - [ ] [Section 66](#) - The Basics of React State
