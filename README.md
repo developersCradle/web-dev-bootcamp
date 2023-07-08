@@ -75,7 +75,7 @@ Insert certificate here when completed
 - [ ] [Section 58](#) -
 - [ ] [Section 59](#) -
 - [x] [Section 60](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2060) - Introducing React
-- [ ] [Section 61](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2061) - JSX In Detail
+- [x] [Section 61](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2061) - JSX In Detail
 - [ ] [Section 62](#) - Local React Apps With Vite
 - [ ] [Section 63](#) - Working With Props
 - [ ] [Section 64](#) - Shopping List Demo: keys, prop types, and more!
@@ -113,6 +113,10 @@ Insert certificate here when completed
     * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **<- Random Color game**
 * Section 28 Exercises
     * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **<- TV Show Search App**
+* Section 61 Exercises
+    * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **<- Random Pokemon card**
+    
+
 - Todo jäin 18kpl katso formatointi ja typot
 - Todo kts tehtävät ja lisäää    
 - Todo muuta tehtävien nimetydehnmukaiseksi ja katso nuoli ja boldaus
@@ -129,7 +133,7 @@ Insert certificate here when completed
 
 
 
-FROM OLD COURSE FROM HERE ONE, rawgit got depricated, some links migreted to html preview and work
+FROM OLD COURSE FROM HERE ONE, rawgit got deprecated, some links migrated to HTML preview and work
 
 
 ## The Major Projects

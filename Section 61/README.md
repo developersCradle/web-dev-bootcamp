@@ -71,7 +71,7 @@ export default function LoginForm() {
 
 - This on is fine 
 
-<img src="jsxRules.JPG" alt="alt text" width="500"/>
+<img src="jsxRules.JPG" alt="alt text" width="400"/>
 
 - Component should return **one single element**, example below should not work
 
@@ -93,9 +93,6 @@ export default function App() {
   </div>
 }
 ```
-
-<img src="jsxRules.JPG" alt="alt text" width="500"/>
-
 
 - This is valid and working, but **.js**
   - To make js happy about this, we need to enclose it with parenthesis
@@ -200,4 +197,5 @@ export default function App() {
     - In HTML world you would use like `<link rel="stylesheet" href="styles.css">` inside HTML tag, but **not** in react world
     - Since React uses **webpack** (bundling our code together, making our import and export work). We need to import our CSS in React
       - `import "./Die.css";` we need to add such to our **Die.js** component (**this is convention!**). This tell webpack to import it to project. We could use this outside of the component, as long is included somewhere.
+
 
