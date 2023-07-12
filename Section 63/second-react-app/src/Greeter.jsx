@@ -1,4 +1,4 @@
-function Greeter({person, from}) {
+function Greeter({person="everyone", from="anonymous"}) {
     return (
     <>
         <h1>Hi there, {person}!!!</h1>
@@ -6,5 +6,6 @@ function Greeter({person, from}) {
     </>
     );
 }
+
 
 export default Greeter;
