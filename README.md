@@ -77,7 +77,7 @@ Insert certificate here when completed
 - [x] [Section 60](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2060) - Introducing React
 - [x] [Section 61](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2061) - JSX In Detail
 - [x] [Section 62](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2062) - Local React Apps With Vite
-- [ ] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
+- [x] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
 - [ ] [Section 64](#) - Shopping List Demo: keys, prop types, and more!
 - [ ] [Section 65](#) - React Events
 - [ ] [Section 66](#) - The Basics of React State
@@ -89,7 +89,7 @@ Insert certificate here when completed
 
 
 
-- Add more when time comes, JS kohdat opiskellut nyt voi edetä angulariin, palaa kun taas aikaa
+- Add more when time comes
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
 - TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 24,28 kappaleet
 
@@ -104,7 +104,6 @@ Insert certificate here when completed
     * [09_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_9.html)
     * [10_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_10.html)
     * [11_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/Coding_Exercise_11.html)
-
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
@@ -115,7 +114,10 @@ Insert certificate here when completed
     * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **<- TV Show Search App**
 * Section 61 Exercises
     * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **<- Random Pokemon card**
+* Section 63 Exercises
+    * [GameSlotGame](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **<- Potato fruit game**
     
+
 
 - Todo jäin 18kpl katso formatointi ja typot
 - Todo kts tehtävät ja lisäää    

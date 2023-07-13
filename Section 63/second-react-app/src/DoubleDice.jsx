@@ -8,7 +8,7 @@ function DoubleDice()   {
 
     return (
         <div className="DoubleDice" style={styles}>
-            <h2>Double Dice</h2>
+            <h2>Double Dice</h2> 
             {num1 === num2 ? <h3>You win!</h3> : null}
             <h3>You win!</h3>
             <p>Num1: {num1}</p>

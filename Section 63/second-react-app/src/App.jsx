@@ -6,6 +6,7 @@ import Greeter from './Greeter'
 import Die from './Die'
 import DoubleDice from './DoubleDice'
 import ColorList from './ColorList'
+import Slots from './Slots'
 
 
 function App() {
@@ -19,13 +20,14 @@ function App() {
       <Die />
       <Die numSides={19} /> */}
 
+      <Slots val1="🥔" val2="🥔" val3="🥔"/>
 
+      {/* <DoubleDice/>
       <DoubleDice/>
-      <DoubleDice/>
-      <DoubleDice/>
+      <DoubleDice/> */}
 
 
-      <ColorList colors={["red", "pink", "purple", "teal"]}/>
+      {/* <ColorList colors={["red", "pink", "purple", "teal"]}/> */}
 
     </div>
   )
