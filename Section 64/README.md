@@ -46,4 +46,51 @@ const data = [
 - You should get used to thinking to abstract logic into smaller pieces. For example if **delete button** would get introduced it should be in separate class file
 
 - © some smart guy in Udemy forum
-> The key prop in React is special and is used by React's diffing algorithm for performance optimization. It's not meant to be used as a normal prop, and it won't be passed down to the component. Therefore, when we destructure the props in the ShoppingListItem component, the key prop is not included because it's not part of the props object that's passed into the component.
+
+> The key prop in React is special and is used by React's diffing algorithm for performance optimization. It's not meant to be used as a normal prop, and it won't be passed down to the component. Therefore, when we de-structure the props in the ShoppingListItem component, the key prop is not included because it's not part of the props object that's passed into the component.
+
+```
+   <ShoppingListItem
+            key={i.id}
+            item = {i.item}
+            quantity = {i.quantity}
+            completed = {i.completed}
+            />
+```
+
+- We can use spread operator in this case names matches in receiving side 
+    - Names needs to **match**
+    - Using spread operator is pretty common in **React**
+
+```
+function ShoppingListItem({item, quantity, completed}) {
+```
+
+```
+import ShoppingListItem from "./ShoppingListItem";
+
+
+
+function ShoppingList({items}) {
+return (
+    <ul>
+        {
+        items.map((i) => (
+           <ShoppingListItem
+            
+           key={i.id}
+            {...i}
+
+            />
+        ))}
+    </ul>
+    );   
+}
+
+export default ShoppingList;
+```
+
+- **PropTypes** is not popular anymore, for eslint since ts is come along
+    - PropTypes are not bad, just slowing our course down
+    - PropType is just to tell prop what type it is
+- [ ] if needed get know to PropTypes Library Course

@@ -65,20 +65,20 @@ Insert certificate here when completed
 - [ ] [Section 48](#) -
 - [ ] [Section 49](#) -
 - [ ] [Section 50](#) -
-- [ ] [Section 51](#) -
-- [ ] [Section 52](#) -
-- [ ] [Section 53](#) -
-- [ ] [Section 54](#) -
-- [ ] [Section 55](#) -
-- [ ] [Section 56](#) -
-- [ ] [Section 57](#) -
-- [ ] [Section 58](#) -
-- [ ] [Section 59](#) -
+- [ ] [Section 51](#) - YelpCamp: Adding In Authentication
+- [ ] [Section 52](#) - YelpCamp: Basic Authorization
+- [ ] [Section 53](#) - YelpCamp: Controllers & Star Ratings
+- [ ] [Section 54](#) - YelpCamp: Image Upload
+- [ ] [Section 55](#) - YelpCamp: Adding Maps
+- [ ] [Section 56](#) - YelpCamp: Fancy Cluster Map
+- [ ] [Section 57](#) - YelpCamp: Styles Clean Up
+- [ ] [Section 58](#) - YelpCamp: Common Security Issues
+- [ ] [Section 59](#) - YelpCamp: Deploying
 - [x] [Section 60](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2060) - Introducing React
 - [x] [Section 61](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2061) - JSX In Detail
 - [x] [Section 62](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2062) - Local React Apps With Vite
 - [x] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
-- [ ] [Section 64](#) - Shopping List Demo: keys, prop types, and more!
+- [x] [Section 64](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2064) - Shopping List Demo: keys, prop types, and more!
 - [ ] [Section 65](#) - React Events
 - [ ] [Section 66](#) - The Basics of React State
 - [ ] [Section 67](#) - Intermediate State Concept
@@ -116,7 +116,10 @@ Insert certificate here when completed
     * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **<- Random Pokemon card**
 * Section 63 Exercises
     * [GameSlotGame](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **<- Potato fruit game**
+* Section 64 Exercises
+    * [ListExercise](https://codesandbox.io/s/compassionate-currying-vrr3m7?file=/src/App.js)
     
+
 
 
 - Todo jäin 18kpl katso formatointi ja typot

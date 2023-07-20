@@ -15,7 +15,7 @@ return (
             />
         ))}
     </ul>
-    );   
+      );
 }
 
 export default ShoppingList;
