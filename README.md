@@ -79,7 +79,7 @@ Insert certificate here when completed
 - [x] [Section 62](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2062) - Local React Apps With Vite
 - [x] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
 - [x] [Section 64](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2064) - Shopping List Demo: keys, prop types, and more!
-- [ ] [Section 65](#) - React Events
+- [x] [Section 65](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2065) - React Events
 - [ ] [Section 66](#) - The Basics of React State
 - [ ] [Section 67](#) - Intermediate State Concept
 - [ ] [Section 68](#) - Component Design
@@ -118,8 +118,9 @@ Insert certificate here when completed
     * [GameSlotGame](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **<- Potato fruit game**
 * Section 64 Exercises
     * [ListExercise](https://codesandbox.io/s/compassionate-currying-vrr3m7?file=/src/App.js)
+* Section 65 Exercises
+    * [ClickerExercise](https://codesandbox.io/s/hardcore-mahavira-y6kklm?file=/src/App.js)
     
-
 
 
 - Todo jäin 18kpl katso formatointi ja typot
