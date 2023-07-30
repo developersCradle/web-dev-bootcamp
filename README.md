@@ -80,7 +80,7 @@ Insert certificate here when completed
 - [x] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
 - [x] [Section 64](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2064) - Shopping List Demo: keys, prop types, and more!
 - [x] [Section 65](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2065) - React Events
-- [ ] [Section 66](#) - The Basics of React State
+- [ ] [Section 66](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2066) - The Basics of React State
 - [ ] [Section 67](#) - Intermediate State Concept
 - [ ] [Section 68](#) - Component Design
 - [ ] [Section 69](#) - React Forms
