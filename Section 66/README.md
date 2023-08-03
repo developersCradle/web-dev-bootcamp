@@ -34,8 +34,51 @@ The Basics of React State
 
 <img src="usingState.JPG" alt="alt text" width="400"/>
 
+- State is state variable which we use in our component, we need to import it
 - Gets initial value `useState(1)`
 
 - First, is state itself(**count**)
 - Second, function to **change** state
 - [HooksInReact](https://react.dev/reference/react/useState)
+
+<img src="stateUsage.JPG" alt="alt text" width="400"/>
+
+- 1. The first one which we setted it
+- 2. Second is **function** which is used to change it
+
+- Therefore we could use this
+
+```
+const num = arr[0];
+const setNum = arr[1];
+```
+- It's common to de-tructure the result
+
+```
+const [num, setNum] = useState(5);
+```
+
+- Using state.
+
+```
+import { useState } from "react";
+
+function Counter(){
+
+    const [num, setNum] = useState(5);
+        
+    const changeNum = () => {
+        setNum(num + 1);
+    }
+
+    return (
+        <div>
+            <p>The count is: {num}</p>
+            <button onClick={changeNum}>Increment</button>
+        </div>
+    );
+}
+
+export default Counter;
+```
+
