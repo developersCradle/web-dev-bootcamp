@@ -81,4 +81,4 @@ function Counter(){
 
 export default Counter;
 ```
-
+- When state function is run, react knows re-render our components

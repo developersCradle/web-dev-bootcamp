@@ -1,12 +1,13 @@
-import { useState } from 'react'
 import './App.css'
-import Counter from './Counter'
+import ToggleCounter from './ToggleCounter'
 
 function App() {
 
   return (
     <>
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <Toggler/> */}
+      <ToggleCounter/> 
     </>
   )
 }
