@@ -82,3 +82,7 @@ function Counter(){
 export default Counter;
 ```
 - When state function is run, react knows re-render our components
+
+<img src="stateRun.PNG" alt="alt text" width="400"/>
+
+- 1. useState is once set to 5 even if our function is ran multiple times
