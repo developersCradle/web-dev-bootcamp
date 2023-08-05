@@ -46,7 +46,7 @@ The Basics of React State
 - 1. The first one which we setted it
 - 2. Second is **function** which is used to change it
 
-- Therefore we could use this
+- Therefore, we could use this
 
 ```
 const num = arr[0];

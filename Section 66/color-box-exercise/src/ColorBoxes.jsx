@@ -1,10 +1,10 @@
+import ColorBox from "./ColorBox";
 
-function ColorBox() {
+
+function ColorBoxes({colors}) {
     return (
-        <>
-            <h1>ColorBox</h1>
-        </>
+            <ColorBox colors={colors}/>    
     );
 }
 
-export default ColorBox;
+export default ColorBoxes;
