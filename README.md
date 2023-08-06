@@ -127,7 +127,8 @@ Insert certificate here when completed
     * [ListExercise](https://codesandbox.io/s/compassionate-currying-vrr3m7?file=/src/App.js)
 * Section 65 Exercises
     * [ClickerExercise](https://codesandbox.io/s/hardcore-mahavira-y6kklm?file=/src/App.js)
-    
+* Section 66 Exercies
+    * [ClickColorBoxesGame](https://codesandbox.io/s/adoring-chaum-6sgl22?file=/src/App.js)
 
 
 - Todo jäin 18kpl katso formatointi ja typot
