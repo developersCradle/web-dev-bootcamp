@@ -1,11 +1,11 @@
-## The Web Developer Bootcamp 2022
+## The Web Developer Bootcamp 2023
 
 ![Web Developer](webDev.PNG)
 
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.<br/>
 Mini projects which are worth of showing are bolded in `The Major Projects`.
 
-All course material from The Web Developer Bootcamp 2022 by Colt Steele
+All course material from The Web Developer Bootcamp 2023 by Colt Steele
 
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
@@ -38,7 +38,7 @@ Insert certificate here when completed
 - [x] [Section 21](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2021) - Leveling Up Our Function
 - [x] [Section 22](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2022) - Callbacks & Array Methods 
 - [x] [Section 23](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2023) - Newer JavaScript Features
-- [x] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM selvitä pieni TODO
+- [x] [Section 24](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2024) - Introducing The World Of The DOM **selvitä pieni TODO**
 - [x] [Section 25](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2025) - The Missing Piece: DOM Events
 - [ ] [Section 26](#) - Score Keeper CodeAlong
 - [x] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
@@ -54,17 +54,17 @@ Insert certificate here when completed
 - [ ] [Section 37](#) - Connecting To Mongo With Mongoose
 - [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
 - [ ] [Section 39](#) - YelpCamp: Campgrounds CRUD
-- [ ] [Section 40](#) -
-- [ ] [Section 41](#) -
-- [ ] [Section 42](#) -
-- [ ] [Section 43](#) -
-- [ ] [Section 44](#) -
-- [ ] [Section 45](#) -
-- [ ] [Section 46](#) -
-- [ ] [Section 47](#) -
-- [ ] [Section 48](#) -
-- [ ] [Section 49](#) -
-- [ ] [Section 50](#) -
+- [ ] [Section 40](#) - Middleware: The Key To Express
+- [ ] [Section 41](#) - YelpCamp: Adding Basic Styles
+- [ ] [Section 42](#) - Handling Errors In Express Apps
+- [ ] [Section 43](#) - YelpCamp: Errors & Validating Data
+- [ ] [Section 44](#) - Data Relationships With Mongo
+- [ ] [Section 45](#) - Mongo Relationships With Express
+- [ ] [Section 46](#) - YelpCamp: Adding The Reviews Model
+- [ ] [Section 47](#) - Express Router & Cookies
+- [ ] [Section 48](#) - Express Session & Flash
+- [ ] [Section 49](#) - YelpCamp: Restructuring & Flash
+- [ ] [Section 50](#) - Authentication From "Scratch"
 - [ ] [Section 51](#) - YelpCamp: Adding In Authentication
 - [ ] [Section 52](#) - YelpCamp: Basic Authorization
 - [ ] [Section 53](#) - YelpCamp: Controllers & Star Ratings
@@ -80,10 +80,17 @@ Insert certificate here when completed
 - [x] [Section 63](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2063) - Working With Props
 - [x] [Section 64](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2064) - Shopping List Demo: keys, prop types, and more!
 - [x] [Section 65](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2065) - React Events
-- [ ] [Section 66](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2066) - The Basics of React State
+- [x] [Section 66](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2066) - The Basics of React State
 - [ ] [Section 67](#) - Intermediate State Concept
 - [ ] [Section 68](#) - Component Design
 - [ ] [Section 69](#) - React Forms
+- [ ] [Section 70](#) - Effects
+- [ ] [Section 71](#) - Material UI
+- [ ] [Section 72](#) - Building a Todo List With Material UI & Local Storage
+- [ ] [Section 73](#) - BONUS: Fancy, More Advanced Todolist
+
+
+
 
 
 

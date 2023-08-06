@@ -2,15 +2,18 @@ import { useState } from 'react';
 import './ColorBox.css'
 
 
+function randomChoice(arr) { //Utility function
+    const idx = Math.floor(Math.random() * arr.length);
+    return arr[idx];
+}
 
 function ColorBox({colors}) {
 
-const [color, setColor] = useState("purple");
+const [color, setColor] = useState(randomChoice(colors));
 const changeColor = () => {
-    const idx = Math.floor(Math.random() * colors.length);
-    const randomColor = colors[idx];
+    const randomColor = randomChoice(colors);
     setColor(randomColor);
-}
+    };
 return <>
         <div 
         className="ColorBox" 
@@ -20,7 +23,6 @@ return <>
             
         </div>
     </> 
-    
 }
 
 export default ColorBox;
