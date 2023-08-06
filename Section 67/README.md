@@ -37,3 +37,18 @@ export default Counter;
 
 - 1. Problem comes when multiple statements are occurring, **remember** state is update when view is re-rendered!
 
+- Should do this instead, **callback syntax**
+
+```
+
+    const incrementCount = () => {
+        setCount(c => c + 1);
+        setCount(c => c + 1);
+        setCount(c => c + 1);
+    }
+
+```
+
+
+
+
