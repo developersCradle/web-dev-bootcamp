@@ -126,7 +126,7 @@ export default EmojiClicker;
     - Remember to use arrow function when defining inline function 
 - Most popular way to delete is `.filter` method
 
-- `emojis.filter(e => e.id !== id);` makes copy of old array where spesified id is removed
+- `emojis.filter(e => e.id !== id);` makes copy of old array where specified id is removed
     - Most **reacty** way to delete something
 
 ```

@@ -13,6 +13,7 @@ Insert certificate here when completed
 
 **Note: The material provided in this repository is only for helping those who may get stuck at any point of time in the course. It is very advised that no one should just copy the solutions(violation of Honor Code) presented here.**
 
+Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions)
 
 ## Progress
 - [x] Section 01 - Course Orientation
@@ -81,13 +82,14 @@ Insert certificate here when completed
 - [x] [Section 64](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2064) - Shopping List Demo: keys, prop types, and more!
 - [x] [Section 65](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2065) - React Events
 - [x] [Section 66](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2066) - The Basics of React State
-- [ ] [Section 67](#) - Intermediate State Concept
+- [x] [Section 67](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2067) - Intermediate State Concept
 - [ ] [Section 68](#) - Component Design
 - [ ] [Section 69](#) - React Forms
 - [ ] [Section 70](#) - Effects
 - [ ] [Section 71](#) - Material UI
 - [ ] [Section 72](#) - Building a Todo List With Material UI & Local Storage
 - [ ] [Section 73](#) - BONUS: Fancy, More Advanced Todolist
+
 
 
 
@@ -129,6 +131,9 @@ Insert certificate here when completed
     * [ClickerExercise](https://codesandbox.io/s/hardcore-mahavira-y6kklm?file=/src/App.js)
 * Section 66 Exercies
     * [ClickColorBoxesGame](https://codesandbox.io/s/adoring-chaum-6sgl22?file=/src/App.js)
+* Section 67 Exercies
+    * [ScoreKeeper](https://codesandbox.io/s/musing-snow-393l38?file=/src/App.js)
+    
 
 
 - Todo jäin 18kpl katso formatointi ja typot
