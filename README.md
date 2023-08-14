@@ -45,8 +45,8 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 27](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2027) - Async JavaScript: Oh Boy!
 - [x] [Section 28](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2028) - AJAX and API's
 - [x] [Section 29](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2029) - Prototypes, Classes, & OOP
-- [ ] [Section 30](#) - Mastering The Terminal
-- [ ] [Section 31](#) - Our First Brush With Node
+- [x] [Section 30](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2030) - Mastering The Terminal
+- [ ] [Section 31](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2031) - Our First Brush With Node
 - [ ] [Section 32](#) - Exploring Modules The NPM Universe
 - [ ] [Section 33](#) - Creating Servers With Express
 - [ ] [Section 34](#) - Creating Dynamic HTML With Templating
@@ -83,7 +83,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 65](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2065) - React Events
 - [x] [Section 66](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2066) - The Basics of React State
 - [x] [Section 67](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2067) - Intermediate State Concept
-- [ ] [Section 68](#) - Component Design
+- [ ] [Section 68](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2068) - Component Design
 - [ ] [Section 69](#) - React Forms
 - [ ] [Section 70](#) - Effects
 - [ ] [Section 71](#) - Material UI
