@@ -51,5 +51,7 @@ Our First Brush With Node
 - Using node `process.argv` from **process object**. Arguments will be retrieved
 
 - Two ways to **read** and **create** files
-    - **Asynch** version
+    - **Asynch** version, usually need **callback** function
     - **Synch** version, waits or block other operations
+
+- **Import** vs **require** [vs](https://www.freecodecamp.org/news/how-to-use-the-javascript-require-function/)
