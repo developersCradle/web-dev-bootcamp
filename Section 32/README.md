@@ -75,4 +75,11 @@ module.export.squere = square;
 
 
 - `require()` vs `import` instead (it's basically a different system of importing modules in JavaScript).
-    - Switching these systems is not as simple as just replacing require()!
+    - Switching these systems is not as simple as just replacing `require()`!
+
+
+- [Lang for interpretation language ISO](https://github.com/adlawson/nodejs-langs)
+
+- [Franc Library for language detection](https://github.com/wooorm/franc)
+
+
