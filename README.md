@@ -47,8 +47,8 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 29](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2029) - Prototypes, Classes, & OOP
 - [x] [Section 30](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2030) - Mastering The Terminal
 - [x] [Section 31](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2031) - Our First Brush With Node
-- [ ] [Section 32](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2032) - Exploring Modules The NPM Universe
-- [ ] [Section 33](#) - Creating Servers With Express
+- [x] [Section 32](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2032) - Exploring Modules The NPM Universe
+- [ ] [Section 33](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2033) - Creating Servers With Express
 - [ ] [Section 34](#) - Creating Dynamic HTML With Templating
 - [ ] [Section 35](#) - Defining RESTful Routes
 - [ ] [Section 36](#) - Our First Database: MongoDB
@@ -121,6 +121,8 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
     * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **<- Random Color game**
 * Section 28 Exercises
     * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **<- TV Show Search App**
+* Section 32 Exercises
+    * [languageDedectionApp](#) **TODO selvitä heikki miten node appi saadaan juostua tai demonstroitua**
 * Section 61 Exercises
     * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **<- Random Pokemon card**
 * Section 63 Exercises
