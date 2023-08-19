@@ -48,9 +48,9 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 30](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2030) - Mastering The Terminal
 - [x] [Section 31](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2031) - Our First Brush With Node
 - [x] [Section 32](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2032) - Exploring Modules The NPM Universe
-- [ ] [Section 33](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2033) - Creating Servers With Express
-- [ ] [Section 34](#) - Creating Dynamic HTML With Templating
-- [ ] [Section 35](#) - Defining RESTful Routes
+- [x] [Section 33](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2033) - Creating Servers With Express
+- [ ] [Section 34](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2034) - Creating Dynamic HTML With Templating
+- [ ] [Section 35](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2035) - Defining RESTful Routes
 - [ ] [Section 36](#) - Our First Database: MongoDB
 - [ ] [Section 37](#) - Connecting To Mongo With Mongoose
 - [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
