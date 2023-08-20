@@ -48,3 +48,42 @@
 ```
 
 - Sending POST
+    - `request.body` is having data about request. Like **GET** is having in **query string** 
+    - In express [docs](http://expressjs.com/en/5x/api.html#req.body)
+
+<img src="format.PNG" alt="alt text" width="600"/>
+
+- 1. Body can be formatted in many ways
+    - We need to tell this to expresss
+- To parse body form **POST** we need to tell express the format how to read
+
+`app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded`
+
+- [About Rest](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+
+<img src="REST.PNG" alt="alt text" width="600"/>
+
+- Sounds comlicated, but its not!
+    - Just, rules and conventions how **clients** and **servers** should communicate. 
+
+- RESTful when something complies with standard of **REST**
+    - We are making routes and API:is **RESTFUL**
+    - We can make our routes many ways, but we are going to follow RESTful way of making things
+
+- RESTful is way how operations work in big picture. Example Instagram open API documentation(RESTful)
+
+<img src="deletingCommentInstagram.PNG" alt="alt text" width="600"/>
+
+
+<img src="readingInInstagram.PNG" alt="alt text" width="600"/>
+
+
+```
+
+GET /comments - list all comments
+POST /comments - Create a new comment
+GET /comments/:id - Get one comment (using ID)
+PATCH /comments/:id - Update one comment 
+DELETE /comments/:id - Destroy one comment 
+
+```
