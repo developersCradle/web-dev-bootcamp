@@ -67,23 +67,38 @@
     - Just, rules and conventions how **clients** and **servers** should communicate. 
 
 - RESTful when something complies with standard of **REST**
-    - We are making routes and API:is **RESTFUL**
+    - We are making routes and API:is **RESTful**
     - We can make our routes many ways, but we are going to follow RESTful way of making things
 
-- RESTful is way how operations work in big picture. Example Instagram open API documentation(RESTful)
+- RESTful is way how operations work in big picture. Example **Instagram** open API documentation(RESTful)
 
 <img src="deletingCommentInstagram.PNG" alt="alt text" width="600"/>
 
-
 <img src="readingInInstagram.PNG" alt="alt text" width="600"/>
 
+- This one some way to name our **RESTful** routes
 
 ```
+GET /allcomments
+GET /all
+GET /showmeallcommentsnow
 
+POST /newcomment
+POST /makecomment
+```
+
+- Common way to implement RESTful API:s
+    - Not only way!
+- Match HTTP verbs with some common base **URL**
+
+```
 GET /comments - list all comments
 POST /comments - Create a new comment
 GET /comments/:id - Get one comment (using ID)
 PATCH /comments/:id - Update one comment 
 DELETE /comments/:id - Destroy one comment 
-
 ```
+
+- Here is the plan, how will implement 
+
+<img src="example.PNG" alt="alt text" width="600"/>
