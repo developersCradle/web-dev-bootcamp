@@ -75,6 +75,8 @@
 
 <img src="readingInInstagram.PNG" alt="alt text" width="600"/>
 
+- Some github API documentation [githubAPIrest](https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28) 
+
 - This one some way to name our **RESTful** routes
 
 ```
@@ -101,3 +103,15 @@ DELETE /comments/:id - Destroy one comment
 - Here is the plan, how will implement 
 
 <img src="example.PNG" alt="alt text" width="600"/>
+
+- Point in here is **ONE**, but common way to organize **CRUD** operations
+
+- **index.ejs** is common naming convention
+
+
+- todo heikki kts vid.366 kun 34 kappale tehnyt
+
+- You can see **POST** inside devTools
+
+<img src="POSTinDevTools.JPG" alt="alt text" width="600"/>
+
