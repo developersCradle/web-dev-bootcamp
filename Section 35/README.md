@@ -115,3 +115,20 @@ DELETE /comments/:id - Destroy one comment
 
 <img src="POSTinDevTools.JPG" alt="alt text" width="600"/>
 
+- [express redirect](http://expressjs.com/en/5x/api.html#res.redirect)
+
+- **Redirect** made in express
+
+```
+
+app.post('/comments', (request, response) => {
+    const {username, comment } = request.body;
+    comments.push({username, comment})
+    response.redirect('/comments'); // default GET, redirect
+
+})
+```
+
+<img src="redirect.PNG" alt="alt text" width="600"/>
+
+- **Redirect** in Chrome dev tools with code 302

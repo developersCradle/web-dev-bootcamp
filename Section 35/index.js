@@ -32,7 +32,7 @@ app.get('/comments', (request, response) => {
 app.post('/comments', (request, response) => {
     const {username, comment } = request.body;
     comments.push({username, comment})
-    response.send("It worked!")
+    response.redirect('/comments'); // default GET, redirect
 
 })
 
