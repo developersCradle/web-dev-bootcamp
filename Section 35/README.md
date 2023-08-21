@@ -10,7 +10,6 @@
 
 <img src="getAndPost.PNG" alt="alt text" width="600"/>
 
-
 - Making GET request
     - Not usually making stuff
 
@@ -54,7 +53,7 @@
 <img src="format.PNG" alt="alt text" width="600"/>
 
 - 1. Body can be formatted in many ways
-    - We need to tell this to expresss
+    - We need to tell this to express
 - To parse body form **POST** we need to tell express the format how to read
 
 `app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded`
@@ -63,7 +62,7 @@
 
 <img src="REST.PNG" alt="alt text" width="600"/>
 
-- Sounds comlicated, but its not!
+- Sounds complicated, but it's not!
     - Just, rules and conventions how **clients** and **servers** should communicate. 
 
 - RESTful when something complies with standard of **REST**
