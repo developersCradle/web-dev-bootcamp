@@ -115,20 +115,41 @@ DELETE /comments/:id - Destroy one comment
 
 <img src="POSTinDevTools.JPG" alt="alt text" width="600"/>
 
-- [express redirect](http://expressjs.com/en/5x/api.html#res.redirect)
 
-- **Redirect** made in express
-
+- Sending **POST** in express
 ```
-
 app.post('/comments', (request, response) => {
     const {username, comment } = request.body;
     comments.push({username, comment})
-    response.redirect('/comments'); // default GET, redirect
+    response.send("It worked!")
 
 })
 ```
 
-<img src="redirect.PNG" alt="alt text" width="600"/>
+- Show route, showing something about one thing particular
+    - We need some **ID** to identify it
 
-- **Redirect** in Chrome dev tools with code 302
+<img src="showID.JPG" alt="alt text" width="600"/>
+
+- 1. Example in IMDB about **ID**
+
+<img src="imdbID.JPG" alt="alt text" width="600"/>
+
+<img src="imdbnestedRoute.JPG" alt="alt text" width="600"/>
+- 1. **ID** to post
+- 2. **ID** to comment
+- 3. We call this **nested route**
+
+- [UUID package](https://www.npmjs.com/package/uuid)
+
+- This is de-constructing with renaming `const { v4 : uuid } = require('uuid');`
+- We could use this `const { v4 } = require('uuid');`
+
+- [HTTPmethods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+- **Patch** request can have **payload**
+
+- **PATCH** request should be used when patcing a resource
+    - Payload should contain **only** the content what is being replaced
+- **PUT** request should contain whole object
+    - Replaces **whole** object
