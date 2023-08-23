@@ -153,3 +153,20 @@ app.post('/comments', (request, response) => {
     - Payload should contain **only** the content what is being replaced
 - **PUT** request should contain whole object
     - Replaces **whole** object
+
+- HTTP Form in broser send only **GET** or **POST** requests
+    - Example below, this should be **PATCH** or **PUT** request
+```
+    <form action="/comments/<% comment.id %>/edit">
+        <textarea name="comment" id="" cols="30" rows="10">
+            <%= comment.comment %>
+        </textarea>
+        <button>Save</button>
+    </form>
+```
+
+- To fix this **express** provides **method-override**
+    - [method override from npm](https://www.npmjs.com/package/method-override)
+
+    - Installing this `$ npm install method-override`
+        - There is many ways to use this, check link for more info [method override from express](http://expressjs.com/en/resources/middleware/method-override.html)

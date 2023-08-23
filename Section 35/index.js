@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const methodOverride = require('method-override');
 const { v4 : uuid } = require('uuid');
 
 //UUID come with different pieces, we are intrested in v4
@@ -9,6 +10,8 @@ const { v4 : uuid } = require('uuid');
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 app.use(express.json());
 
+// override with POST having ?_method=DELETE
+app.use(methodOverride('_method'));
 
 app.set('view engine', 'ejs');
 
@@ -51,11 +54,24 @@ app.get('/comments/:id', (request, response) => {
     response.render('comments/show', { comment });
 })
 
-app.patch('/comment/:id', (request, response) => {
-    const { id } = req.body;
-    const newCommnetText = req.body.comment; // Something form payload
-    const foundCommment = commnet.find(c => c.id === id);
-    foundCommment.comment = newCommnetText;
+app.post('/comments/:id/edit', (request, response) => {
+    const { id } = request.body;
+    const comment = comments.find(c => c.id === id);
+    response.render('comments/edit', { comment })
+})
+
+app.get('/comments/:id/edit', (request, response) => {
+    const { id } = request.params; //get is form params
+    const comment = comments.find(c => c.id === id);
+    response.render('comments/edit', { comment })
+})
+
+
+app.patch('/comments/:id', (request, response) => {
+    const { id } = request.body;
+    const newCommentText = request.body.comment; // Something form payload
+    const foundComment = comments.find(c => c.id === id);
+    foundComment.comment = newCommentText;
     // We don't wana answer from content of patch route
     response.redirect('/comments')
 })
@@ -69,12 +85,6 @@ app.post('/tacos', (req, res) => {
         qty} = req.body;
     res.send(`OK, here are your ${qty} ${meat} tacos`);
 });
-
-app.post('/comments/:id/edit', (request, response) => {
-    const { id } = req.body;
-    const comment = comments.find(c => c.id === id);
-    response.render('comments/edit', { comment })
-})
 
 
 app.listen(3000, () => {
