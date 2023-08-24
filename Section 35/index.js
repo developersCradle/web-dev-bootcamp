@@ -1,93 +1,94 @@
-const express = require('express');
+const express = require("express");
 const app = express();
-const methodOverride = require('method-override');
-const { v4 : uuid } = require('uuid');
+const path = require("path");
+const { v4: uuid } = require("uuid");
+const methodOverride = require("method-override");
 
-//UUID come with different pieces, we are intrested in v4
-// app.set('view engine', 'ejs')
-// app.set('views', path.join(__dirname, '/views'));
-
-app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
+app.set("views", path.join(__dirname, "/views"));
+app.set("view engine", "ejs");
+//to be able to parse the POST form information from the body
+app.use(express.urlencoded({ extended: true }));
+//to handle json data
 app.use(express.json());
+//method override to provide the methods outside of get and post in the form
+app.use(methodOverride("_method"));
 
-// override with POST having ?_method=DELETE
-app.use(methodOverride('_method'));
-
-app.set('view engine', 'ejs');
-
-const comments = [
+let comments = [
     {
-        id :  uuid(),
-        username: 'Todd',
-        comment: 'lol that is so funny!'
+        id: uuid(),
+        username: "Todd",
+        comment: "LOL! SO FUNNY",
     },
     {
-        id :  uuid(),
-        username: 'Tollo',
-        comment: 'lol that is so stupid!'
+        id: uuid(),
+        username: "Valentina",
+        comment: "No way! YOu are joking",
     },
     {
-        id :  uuid(),
-        username: 'Erkki',
-        comment: 'lol that is so Erkki!'
+        id: uuid(),
+        username: "Krista",
+        comment: "THE most hilarious thing ever",
     },
-]
+    {
+        id: uuid(),
+        username: "Scott",
+        comment: "Dying laughing",
+    },
+    {
+        id: uuid(),
+        username: "Skylar",
+        comment: "DON't tell me anymore. I am bought!",
+    },
+];
 
-app.get('/comments', (request, response) => {
-    response.render('comments/index', { comments }); //Passing comment object to render
-})
+app.get("/comments", (req, res) => {
+    res.render("comments/index.ejs", { comments });
+});
+app.post("/comments", (req, res) => {
+    const { username, comment } = req.body;
+    comments.push({ username: username, comment: comment, id: uuid() });
+    //after accomplishing a task, it redirects us and sends a default get request to the comments route
+    res.redirect("/comments");
+});
 
-app.post('/comments', (request, response) => {
-    const {username, comment } = request.body;
-    comments.push({username, comment, id : uuid() })
-    response.redirect('/comments'); // default GET, redirect
+app.get("/comments/new", (req, res) => {
+    res.render("comments/new");
+});
 
-})
+app.get("/comments/:id", (req, res) => {
+    const { id } = req.params;
+    const comment = comments.find((c) => c.id === id);
+    res.render("comments/show", { comment: comment });
+});
 
-app.get('/comments/new', (request, response) => { // To get form, POST to save the form
-    response.render('comments/new');
-})
-
-app.get('/comments/:id', (request, response) => {
-    const { id } = request.params;
-    const comment = comments.find(c => c.id === id);
-    response.render('comments/show', { comment });
-})
-
-app.post('/comments/:id/edit', (request, response) => {
-    const { id } = request.body;
-    const comment = comments.find(c => c.id === id);
-    response.render('comments/edit', { comment })
-})
-
-app.get('/comments/:id/edit', (request, response) => {
-    const { id } = request.params; //get is form params
-    const comment = comments.find(c => c.id === id);
-    response.render('comments/edit', { comment })
-})
-
-
-app.patch('/comments/:id', (request, response) => {
-    const { id } = request.body;
-    const newCommentText = request.body.comment; // Something form payload
-    const foundComment = comments.find(c => c.id === id);
+app.get("/comments/:id/edit", (req, res) => {
+    const { id } = req.params;
+    const comment = comments.find((c) => c.id === id);
+    res.render("comments/edit", { comment });
+});
+app.patch("/comments/:id", (req, res) => {
+    const { id } = req.params;
+    const newCommentText = req.body.comment;
+    const foundComment = comments.find((c) => c.id === id);
     foundComment.comment = newCommentText;
-    // We don't wana answer from content of patch route
-    response.redirect('/comments')
-})
-
-app.get('/tacos', (req, res) => {
-    res.send("GET /tacos response")
+    res.redirect("/comments");
 });
 
-app.post('/tacos', (req, res) => {
-    const {meat, 
-        qty} = req.body;
-    res.send(`OK, here are your ${qty} ${meat} tacos`);
+app.delete("/comments/:id", (req, res) => {
+    const { id } = req.params;
+    const comment = comments.find((c) => c.id === id);
+    comments = comments.filter((c) => c.id !== id);
+    res.redirect("/comments");
+});
+app.listen(8000, () => {
+    console.log("LISTENING ON PORT 8000!");
 });
 
+// REST PATTERN website/resource/action
+// index route      GET /comments/ - list all comments
+// create route     POST /comments/ - create a new comment
+// show route       GET /comments/:id - get one comment using the id.
+// update route     PATCH /comments/:id - update the content of the id comment.
+// destroy route    DELETE /comments/:id - destroy the comment of id.
 
-app.listen(3000, () => {
-    console.log("LISTENINT ON PORT 3000");
-})
-
+[];
