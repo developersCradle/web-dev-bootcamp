@@ -170,3 +170,5 @@ app.post('/comments', (request, response) => {
 
     - Installing this `$ npm install method-override`
         - There is many ways to use this, check link for more info [method override from express](http://expressjs.com/en/resources/middleware/method-override.html)
+
+- You should avoid mutating arrays

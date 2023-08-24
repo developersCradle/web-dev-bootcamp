@@ -77,7 +77,7 @@ app.patch("/comments/:id", (req, res) => {
 app.delete("/comments/:id", (req, res) => {
     const { id } = req.params;
     const comment = comments.find((c) => c.id === id);
-    comments = comments.filter((c) => c.id !== id);
+    comments = comments.filter((c) => c.id !== id); // Avoid mutating array
     res.redirect("/comments");
 });
 app.listen(8000, () => {
