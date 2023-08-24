@@ -6,6 +6,7 @@ Boosting my knowledge to up to speed. This contains exercise files and my own no
 Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 All course material from The Web Developer Bootcamp 2023 by Colt Steele
+If the content sparked 🔥 your interest, please consider buying the course and start learning 📖
 
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
