@@ -7,6 +7,8 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 
 All course material from The Web Developer Bootcamp 2023 by Colt Steele
 
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
 Insert certificate here when completed
@@ -94,7 +96,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
 
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
-- TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 24,28,33,35 kappaleet
+- TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 9, 24,28,33,35 kappaleet
 - TODO selvitä ja siivoa node_modules pois
 
 ## The Major Projects/Exercise
