@@ -4,7 +4,7 @@ Creating Servers With Express
 
 # What I Learned
 
-<img src="express.PNG" alt="alt text" width="600"/>
+<img src="express.PNG" alt="alt text" width="400"/>
 
 - Express is framework
 
@@ -38,17 +38,16 @@ app.use(() => {
 
 ```
 
-- HTTP request is no js object. Its text
+- HTTP request is **not Js object**. Its text
 
 - Express automatically parses HTTP request to js object
 
-- express bakes **request** and **result** `app.listen(3000, (req, res) => {`
+- Express bakes **request** and **result** into calls `app.listen(3000, (req, res) => {`
 
 
 - `res.send("Hello we got your request")` we can send different object, text, html to back.
 
 - **Routing** is common task in web frameworks. Taking **incoming request** and **PATH** that is requested and matching that to some code!
-
 
 - Making route in express
 
@@ -58,7 +57,7 @@ app.get('/cats', (req, res) => {
 });
 ```
 
-- Making same requests in **postman**
+- Making same requests in **postman**, example below
 
 <img src="postMan.PNG" alt="alt text" width="600"/>
 
@@ -70,14 +69,13 @@ app.get('/', (req, res) => (req, res) => {
 })
 ```
 
-- Handles every other routes with `*`
+- Handles **every other** routes with `*`
 
 ```
 app.get('*', (req, res) => (req, res) => {
     res.send("ALL othres");
 })
 ```
- 
 
 - Matching patter `/r/:` will tell this route to have at least `/r/` in it
 
@@ -90,7 +88,7 @@ app.get('/r/:subreddit', (req, res) => {
 
 ```
 
-- Example using such 
+- Example using such. As You can see  `:/subreddit` can be any as long `/r/` mathces
 
 <img src="subredditMatching.PNG" alt="alt text" width="600"/>
 
@@ -117,7 +115,7 @@ app.get('/r/:subreddit/:postId', (req, res) => {
 
 ```
 
-- Accessing query attributes
+- Accessing query attributes in **GET**
 
 ```
 app.get('/search', (req, res) => {
@@ -128,7 +126,6 @@ app.get('/search', (req, res) => {
 })
 ```
 
-
-- [nodemon](https://www.npmjs.com/package/nodemon)
+- For automatically restarting when change is dedected [nodemon](https://www.npmjs.com/package/nodemon)
 
 - After installing, we can run `nodemon idex.js`

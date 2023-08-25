@@ -50,7 +50,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 32](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2032) - Exploring Modules The NPM Universe
 - [x] [Section 33](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2033) - Creating Servers With Express
 - [ ] [Section 34](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2034) - Creating Dynamic HTML With Templating
-- [ ] [Section 35](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2035) - Defining RESTful Routes
+- [x] [Section 35](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2035) - Defining RESTful Routes **TODO kts miten hostataan .ejs tiedostoja** ja **yksi todo**
 - [ ] [Section 36](#) - Our First Database: MongoDB
 - [ ] [Section 37](#) - Connecting To Mongo With Mongoose
 - [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
@@ -93,14 +93,9 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
 
 
-
-
-
-
-
-- Add more when time comes
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
-- TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 24,28 kappaleet
+- TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 24,28,33,35 kappaleet
+- TODO selvitä ja siivoa node_modules pois
 
 ## The Major Projects/Exercise
 * Section 03 Exercises

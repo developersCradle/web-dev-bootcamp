@@ -11,7 +11,7 @@
 <img src="getAndPost.PNG" alt="alt text" width="600"/>
 
 - Making GET request
-    - Not usually making stuff
+    - Not usually making stuff, more rather than **getting** stuff
 
 ```
 <!DOCTYPE html>
@@ -46,7 +46,7 @@
         </form>
 ```
 
-- Sending POST
+- Sending **POST**
     - `request.body` is having data about request. Like **GET** is having in **query string** 
     - In express [docs](http://expressjs.com/en/5x/api.html#req.body)
 
@@ -58,9 +58,9 @@
 
 `app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded`
 
-- [About Rest](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm)
+- Rest spesifcations [About Rest](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) **TODO lukaise läpi kun aikaa**
 
-<img src="REST.PNG" alt="alt text" width="600"/>
+<img src="REST.PNG" alt="alt text" width="500"/>
 
 - Sounds complicated, but it's not!
     - Just, rules and conventions how **clients** and **servers** should communicate. 
@@ -71,13 +71,17 @@
 
 - RESTful is way how operations work in big picture. Example **Instagram** open API documentation(RESTful)
 
-<img src="deletingCommentInstagram.PNG" alt="alt text" width="600"/>
+<img src="deletingCommentInstagram.PNG" alt="alt text" width="500"/>
 
 <img src="readingInInstagram.PNG" alt="alt text" width="600"/>
 
-- Some github API documentation [githubAPIrest](https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28) 
+- Some github API documentation(used as learning experience) [GithubAPIrest](https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28) 
 
-- This one some way to name our **RESTful** routes
+
+***
+
+- There is patters to name our **RESTful** routes
+    - This **one** way
 
 ```
 GET /allcomments
@@ -100,23 +104,23 @@ PATCH /comments/:id - Update one comment
 DELETE /comments/:id - Destroy one comment 
 ```
 
-- Here is the plan, how will implement 
+- Here is the plan, how we will be implementing 
 
-<img src="example.PNG" alt="alt text" width="600"/>
+<img src="example.PNG" alt="alt text" width="500"/>
 
-- Point in here is **ONE**, but common way to organize **CRUD** operations
+- **ONE** naming convention is good, but common way to organize **CRUD** operations
+    - These are preferences not enforced!
 
-- **index.ejs** is common naming convention
+- **index.ejs** is common naming convention, for landing page where you can see much, but not all. Like Reddit for example
 
-
-- todo heikki kts vid.366 kun 34 kappale tehnyt
+- **todo** heikki kts vid.366 kun 34 kappale tehnyt
 
 - You can see **POST** inside devTools
 
 <img src="POSTinDevTools.JPG" alt="alt text" width="600"/>
 
-
 - Sending **POST** in express
+
 ```
 app.post('/comments', (request, response) => {
     const {username, comment } = request.body;
@@ -131,26 +135,28 @@ app.post('/comments', (request, response) => {
 
 <img src="showID.JPG" alt="alt text" width="600"/>
 
-- 1. Example in IMDB about **ID**
-
 <img src="imdbID.JPG" alt="alt text" width="600"/>
 
-<img src="imdbnestedRoute.JPG" alt="alt text" width="600"/>
+- 1. Example in IMDB you can see **ID** being implemented in REST architecture
+
+<img src="nestedRoute.JPG" alt="alt text" width="600"/>
+
 - 1. **ID** to post
 - 2. **ID** to comment
 - 3. We call this **nested route**
 
-- [UUID package](https://www.npmjs.com/package/uuid)
+- For generating UUID [UUID package](https://www.npmjs.com/package/uuid)
 
 - This is de-constructing with renaming `const { v4 : uuid } = require('uuid');`
+
 - We could use this `const { v4 } = require('uuid');`
 
-- [HTTPmethods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- Different HTTP verbs [HTTPmethods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 - **Patch** request can have **payload**
 
 - **PATCH** request should be used when patcing a resource
-    - Payload should contain **only** the content what is being replaced
+    - Payload should contain **only** the content what is being replaced, meaning not the whole object rather the **small part** of it
 - **PUT** request should contain whole object
     - Replaces **whole** object
 
@@ -166,9 +172,9 @@ app.post('/comments', (request, response) => {
 ```
 
 - To fix this **express** provides **method-override**
-    - [method override from npm](https://www.npmjs.com/package/method-override)
+    - We use this to fix this [method override from npm](https://www.npmjs.com/package/method-override)
 
     - Installing this `$ npm install method-override`
         - There is many ways to use this, check link for more info [method override from express](http://expressjs.com/en/resources/middleware/method-override.html)
 
-- You should avoid mutating arrays
+- You should avoid mutating old arrays in general. Should always return mutated array as **new** 
