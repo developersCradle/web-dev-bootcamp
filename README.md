@@ -5,7 +5,7 @@
 Boosting my knowledge to up to speed. This contains exercise files and my own notes alongside with them.<br/>
 Mini projects which are worth of showing are bolded in `The Major Projects`.
 
-All course material from The Web Developer Bootcamp 2023 by Colt Steele
+All course material from The Web Developer Boot camp 2023 by Colt Steele
 If the content sparked 🔥 your interest, please consider buying the course and start learning 📖
 
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
@@ -98,10 +98,10 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
 
 
-
+- Todo selvitä noille harjoituksille tehdään
 - Add more when time comes
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
-- TODO katso muotoilut lävitse .md filuista, katsottu 1-7, 24,28 kappaleet
+- TODO katso muotoilut lävitse .md filuista, katsottu 1-7,14,15, 24,28 kappaleet
 
 ## The Major Projects/Exercise
 * Section 03 Exercises
