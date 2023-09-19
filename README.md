@@ -8,6 +8,8 @@ Mini projects which are worth of showing are bolded in `The Major Projects`.
 All course material from The Web Developer Boot camp 2023 by Colt Steele
 If the content sparked 🔥 your interest, please consider buying the course and start learning 📖
 
+If the content sparked :fire: your interest, please consider buying the course and start learning :book:
+
 [The Course at Udemy](https://www.udemy.com/course/the-web-developer-bootcamp/)   
 
 Insert certificate here when completed
@@ -51,7 +53,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 32](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2032) - Exploring Modules The NPM Universe
 - [x] [Section 33](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2033) - Creating Servers With Express
 - [ ] [Section 34](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2034) - Creating Dynamic HTML With Templating
-- [ ] [Section 35](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2035) - Defining RESTful Routes
+- [x] [Section 35](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2035) - Defining RESTful Routes **TODO kts miten hostataan .ejs tiedostoja** ja **yksi todo**
 - [ ] [Section 36](#) - Our First Database: MongoDB
 - [ ] [Section 37](#) - Connecting To Mongo With Mongoose
 - [ ] [Section 38](#) - Putting It All Together: Mongoose With Express
@@ -98,11 +100,11 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
 
 
-- Todo selvitä noille harjoituksille tehdään
+
 - Add more when time comes
 - TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
-- TODO katso muotoilut lävitse .md filuista, katsottu 1-7,14,15, 24,28 kappaleet
-
+- TODO katso muotoilut lävitse .md filuista, katsottu 1-7,14,15, 9, 24,28,33,35 kappaleet
+- TODO selvitä ja siivoa node_modules pois
 ## The Major Projects/Exercise
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
