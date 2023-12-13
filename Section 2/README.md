@@ -8,6 +8,6 @@ Introduction to web
 * HTTP is how we should share resources
 * [What is html/css/js](https://codepen.io/giana/pen/GJMBEv)
 	* Js is verbs on web
-	* Css is adjective on web
-	* Html what is the page on web
+	* CSS is adjective on web
+	* HTML what is the page on web
 * [VSode](https://code.visualstudio.com/)

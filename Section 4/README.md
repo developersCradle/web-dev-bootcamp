@@ -5,13 +5,13 @@ HTML: Next Steps & Semantics
 # What I Learned
 
 - HTML5 represents two concepts
-	- New version of HTML5 with new elements, attributes and behaviour
-	- Larger set of technologies(3d inside browser etc)
+	- New version of HTML5 with new elements, attributes and behavior
+	- Larger set of technologies(3d inside browser etc.)
 		- Basically new stuff in HTML
 
 <img src="html5Standard.PNG" alt="alt text" width="600"/>
 
-- We never install html, its basically document how it should work -> called HTML standard
+- We never install HTML, its basically document how it should work -> called HTML standard
 	- Browsers implements browsers based on these standards
 - How HTML should work [HowHTMLshouldWork](https://html.spec.whatwg.org/)
 	- Browser implements version of this
@@ -22,7 +22,7 @@ HTML: Next Steps & Semantics
 - **Block element** takes whole space
 - **Inline element** fits in
 
-- Examle below
+- Example below
 
 <img src="blockAndInlineExample.PNG" alt="alt text" width="600"/>
 
@@ -41,12 +41,13 @@ HTML: Next Steps & Semantics
 
 - [Div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)
 
-<img src="divInAction.PNG" alt="alt text" width="800"/>
+<img src="divInAction.PNG" alt="alt text" width="700"/>
 
-- Using div to group text and picture togeteher
+- Using div to group text and picture together
 	- Used to make things together inside **block level** element
 
 - Example using code `div`
+
 ```
 	<div class="warning">
     <img src="/media/examples/leopard.jpg"
@@ -58,7 +59,7 @@ HTML: Next Steps & Semantics
 - [Span](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span)
 
 - Span is another generic container element, but its **inline element**
-	- Therefore, its good if you want to groub some stuff inside something, while keeping the layout the same. Example below
+	- Therefore, it's good if you want to group some stuff inside something, while keeping the layout the same. Example below
 
 <img src="usingSpan.PNG" alt="alt text" width="600"/>
 
@@ -67,11 +68,11 @@ HTML: Next Steps & Semantics
 - `<hr>` makes line [Hr](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
 - `<br>` line brake [Br](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p)
-	- Uselfull inside paragraph to go next line
+	- Useful inside paragraph to go next line
 
 <img src="brInAction.PNG" alt="alt text" width="400"/>
 
-- Linebrakes are ignore usless you put `<br>`
+- Line brakes are ignored unless you put `<br>`
 
 <img src="brInActionVisualisation.PNG" alt="alt text" width="500"/>
 
@@ -83,10 +84,10 @@ HTML: Next Steps & Semantics
 - Subscript `<sub>` [Sub](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub)
 	- Text lower from baseline
 
-- HTML Entityes allows use different symbols which are hard to type or are reserved 
+- HTML Entities allows use different symbols which are hard to type or are reserved 
 
 
-<img src="htmlEntityes.PNG" alt="alt text" width="600"/>
+<img src="htmlEntityes.PNG" alt="alt text" width="500"/>
 
 - [EntityCodes](https://html.spec.whatwg.org/multipage/named-characters.html)
 
@@ -100,7 +101,7 @@ HTML: Next Steps & Semantics
 - [Stripe](https://stripe.com/en-fi) (has Markup) **vs** (uses Divs)[Medium](https://medium.com/)
 
 - Semantic markup, meaningful markup. They add meaning to markup
-	- People use these ones diffently
+	- People use these differently
 - `<main>` is just like `<div>`
 - `<header>` is just like `<div>`
 - `<section>` is just like `<div>`
@@ -108,17 +109,17 @@ HTML: Next Steps & Semantics
 	- All these behave like `<div>`, but with different names
 - Meaningful markup helps automatics bots to identify stuff in website
 	- More friendly for other programs
-	- Better for screenreaders
+	- Better for screen readers
 		- Acts as hooks
 - `<nav>` represents area for navigation links [Nav](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav)
 
-- Exanple usage of navs could be links in wikipedia page
+- Example usage of `<nav>` element could be used as links in Wikipedia page
 
-<img src="navExample.PNG" alt="alt text" width="600"/>
+<img src="navExample.PNG" alt="alt text" width="300"/>
 
 - `<section>` just standard section element [Section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section)
 
-- `<article>` represens independently distributable or reusable content [Article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+- `<article>` represent independently attributable or reusable content [Article](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 	- For example weather widget 
 - `<aside>` element represents a portion of a document whose content is only indirectly related to the document's main content. [Aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside)
 
@@ -126,5 +127,5 @@ HTML: Next Steps & Semantics
 
 - `<footer>` [Footer](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer)
 - [Emmet](https://docs.emmet.io/)
-	- This is comes integrated inside vscode
+	- This is coming integrated inside Vscode
 		-`!` start typing with this

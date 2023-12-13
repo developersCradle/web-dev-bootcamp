@@ -95,16 +95,6 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
 
 
-
-
-
-
-
-
-- Add more when time comes
-- TODO katso noi kaikki tehtävät lävitse listtaan ja katso nuo pienet typot, kun aikaa :D
-- TODO katso muotoilut lävitse .md filuista, katsottu 1-7,14,15, 9, 24,28,33,35 kappaleet
-- TODO selvitä ja siivoa node_modules pois
 ## The Major Projects/Exercise
 * Section 03 Exercises
     * [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_pangoli_1.html)
@@ -121,15 +111,15 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 * Section 25 Exercises
     * [59_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_59.html)
     * [60_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_60.html) 
-    * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **<- Random Color game**
+    * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **← Random Color game**
 * Section 28 Exercises
-    * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **<- TV Show Search App**
+    * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **← TV Show Search App**
 * Section 32 Exercises
     * [languageDedectionApp](#) **TODO selvitä heikki miten node appi saadaan juostua tai demonstroitua**
 * Section 61 Exercises
-    * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **<- Random Pokemon card**
+    * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **← Random Pokémon card**
 * Section 63 Exercises
-    * [GameSlotGame](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **<- Potato fruit game**
+    * [GameSlotGame](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **← Potato fruit game**
 * Section 64 Exercises
     * [ListExercise](https://codesandbox.io/s/compassionate-currying-vrr3m7?file=/src/App.js)
 * Section 65 Exercises
@@ -141,23 +131,20 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
     
 
 
-- Todo jäin 18kpl katso formatointi ja typot
 - Todo kts tehtävät ja lisäää    
 - Todo muuta tehtävien nimetydehnmukaiseksi ja katso nuoli ja boldaus
 - Todo joku css liittyvä projekti ja linkkaa tänne, niin saa ajattua opit loppuun asti
+- TODO katso tehtävät lävitse listtaan
+- TODO typot ja formatointi. Katso tätä systemaattisesti eteenpäin: 1,2,3,4,5
+- TODO selvitä ja siivoa node_modules pois
+- Todo Kaiken tämän jälkeen tee github pages
 
 
 
 
 
 
-
-
-
-
-
-
-FROM OLD COURSE FROM HERE ONE, rawgit got deprecated, some links migrated to HTML preview and work
+FROM OLD COURSE FROM HERE ONE, RawGit got deprecated, some links migrated to HTML preview and work
 
 
 ## The Major Projects
@@ -174,11 +161,11 @@ FROM OLD COURSE FROM HERE ONE, rawgit got deprecated, some links migrated to HTM
 
 * Section 06 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/a7c4e76a/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/board.html)
-    * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery** (todo add oppening of image)
+    * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery** (todo add opening of image)
     * [3_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/blog.html) **<-- Simple blog**
 
 * Section 07 Exercises
-	* [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootsrap**
+	* [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootstrap**
 	* [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/index.html) **<-- Startup page with Bootstrap**
 
 
@@ -196,7 +183,6 @@ FROM OLD COURSE FROM HERE ONE, rawgit got deprecated, some links migrated to HTM
 *   [Slides](https://webdev.slides.com/coltsteele/)
 
 
-Kaiken tämän jälkeen tee github pages
 
 IS needed?
 
