@@ -3,7 +3,7 @@
 # What I Learned
 
 - Alpha channel range from ` 1 to 0 `
-    - See thought for color
+    - See throught for color
     - `rgba(0, 209, 112, 0.5)`
 
 ```
@@ -55,7 +55,7 @@
 <img src="static.PNG" alt="alt text" width="200"/>
 
 - Middle one is static one, **nothing changes**
-    - For example ` top: 100px ` has no effect if element is **static**
+    - For example ` top: 100px ` has not effect if element is **static**
 
 - `position:relative` set position relative where it would be, gets affected by `top`,`right`,`bottom`,`left`
 
@@ -86,8 +86,8 @@
 
 <img src="absoluteInProgress.PNG" alt="alt text" width="200"/>
 
-1. With **Absolute** element is hidden behind the middle element 
-    - Removes **completely** from document flow
+- 1. With **Absolute** element is hidden behind the middle element 
+    - Removes completly from document flow
 ```
 #absolute #middle {
     postion: absolute;
@@ -98,11 +98,11 @@
 
 <img src="absoluteInProgress2.PNG" alt="alt text" width="200"/>
 
-- It is positioned relative to its closest **positioned** ancestor, it is placed initial containing block
-    - Basically means for example `<body>`
+- It is positioned relative to its closest positioned ancestor, it is placed initial containing block
+    - Basicly means `<body>`
     - Positioned means, if element is anything other than **static** 
 
-- If in other hand we position parent element as `relative`, `absolute` behaves title bit differently
+- If in otherhand we positon parent element as `relative`, `absolute` behaves litle bit differently
 
 ```
 #absolute {

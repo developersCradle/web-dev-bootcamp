@@ -1,0 +1,180 @@
+# Section 35 Defining RESTful Routes
+
+
+# What I Learned
+
+- **GET** and **POST** these are rules what you **should** follow 
+    - **Get** Get information
+    - **POST** Send information
+    - **YOU COULD!!!** make other way, but get these recommended rules not to!
+
+<img src="getAndPost.PNG" alt="alt text" width="600"/>
+
+- Making GET request
+    - Not usually making stuff, more rather than **getting** stuff
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form action="/tacos" method="get">
+            <input type="text" name="meat">
+            <input type="number" name="qty">
+            <button>Submit</button>
+        </form>
+</body>
+</html>
+```
+
+<img src="queryString.PNG" alt="alt text" width="600"/>
+
+- As you can see GET is often sent with **query string** parameters
+
+- POST is sent in BODY
+
+```
+   <h2>POST</h2>
+        <form action="/tacos" method="post">
+            <input type="text" name="meat">
+            <input type="number" name="qty">
+            <button>Submit</button>
+        </form>
+```
+
+- Sending **POST**
+    - `request.body` is having data about request. Like **GET** is having in **query string** 
+    - In express [docs](http://expressjs.com/en/5x/api.html#req.body)
+
+<img src="format.PNG" alt="alt text" width="600"/>
+
+- 1. Body can be formatted in many ways
+    - We need to tell this to express
+- To parse body form **POST** we need to tell express the format how to read
+
+`app.use(bodyParser.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded`
+
+- Rest spesifcations [About Rest](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) **TODO lukaise läpi kun aikaa**
+
+<img src="REST.PNG" alt="alt text" width="500"/>
+
+- Sounds complicated, but it's not!
+    - Just, rules and conventions how **clients** and **servers** should communicate. 
+
+- RESTful when something complies with standard of **REST**
+    - We are making routes and API:is **RESTful**
+    - We can make our routes many ways, but we are going to follow RESTful way of making things
+
+- RESTful is way how operations work in big picture. Example **Instagram** open API documentation(RESTful)
+
+<img src="deletingCommentInstagram.PNG" alt="alt text" width="500"/>
+
+<img src="readingInInstagram.PNG" alt="alt text" width="600"/>
+
+- Some github API documentation(used as learning experience) [GithubAPIrest](https://docs.github.com/en/rest/gists/gists?apiVersion=2022-11-28) 
+
+
+***
+
+- There is patters to name our **RESTful** routes
+    - This **one** way
+
+```
+GET /allcomments
+GET /all
+GET /showmeallcommentsnow
+
+POST /newcomment
+POST /makecomment
+```
+
+- Common way to implement RESTful API:s
+    - Not only way!
+- Match HTTP verbs with some common base **URL**
+
+```
+GET /comments - list all comments
+POST /comments - Create a new comment
+GET /comments/:id - Get one comment (using ID)
+PATCH /comments/:id - Update one comment 
+DELETE /comments/:id - Destroy one comment 
+```
+
+- Here is the plan, how we will be implementing 
+
+<img src="example.PNG" alt="alt text" width="500"/>
+
+- **ONE** naming convention is good, but common way to organize **CRUD** operations
+    - These are preferences not enforced!
+
+- **index.ejs** is common naming convention, for landing page where you can see much, but not all. Like Reddit for example
+
+- **todo** heikki kts vid.366 kun 34 kappale tehnyt
+
+- You can see **POST** inside devTools
+
+<img src="POSTinDevTools.JPG" alt="alt text" width="600"/>
+
+- Sending **POST** in express
+
+```
+app.post('/comments', (request, response) => {
+    const {username, comment } = request.body;
+    comments.push({username, comment})
+    response.send("It worked!")
+
+})
+```
+
+- Show route, showing something about one thing particular
+    - We need some **ID** to identify it
+
+<img src="showID.JPG" alt="alt text" width="600"/>
+
+<img src="imdbID.JPG" alt="alt text" width="600"/>
+
+- 1. Example in IMDB you can see **ID** being implemented in REST architecture
+
+<img src="nestedRoute.JPG" alt="alt text" width="600"/>
+
+- 1. **ID** to post
+- 2. **ID** to comment
+- 3. We call this **nested route**
+
+- For generating UUID [UUID package](https://www.npmjs.com/package/uuid)
+
+- This is de-constructing with renaming `const { v4 : uuid } = require('uuid');`
+
+- We could use this `const { v4 } = require('uuid');`
+
+- Different HTTP verbs [HTTPmethods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
+- **Patch** request can have **payload**
+
+- **PATCH** request should be used when patcing a resource
+    - Payload should contain **only** the content what is being replaced, meaning not the whole object rather the **small part** of it
+- **PUT** request should contain whole object
+    - Replaces **whole** object
+
+- HTTP Form in broser send only **GET** or **POST** requests
+    - Example below, this should be **PATCH** or **PUT** request
+```
+    <form action="/comments/<% comment.id %>/edit">
+        <textarea name="comment" id="" cols="30" rows="10">
+            <%= comment.comment %>
+        </textarea>
+        <button>Save</button>
+    </form>
+```
+
+- To fix this **express** provides **method-override**
+    - We use this to fix this [method override from npm](https://www.npmjs.com/package/method-override)
+
+    - Installing this `$ npm install method-override`
+        - There is many ways to use this, check link for more info [method override from express](http://expressjs.com/en/resources/middleware/method-override.html)
+
+- You should avoid mutating old arrays in general. Should always return mutated array as **new** 
