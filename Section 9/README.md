@@ -3,7 +3,7 @@
 # What I Learned
 
 - Alpha channel range from ` 1 to 0 `
-    - See throught for color
+    - See thought for color
     - `rgba(0, 209, 112, 0.5)`
 
 ```
@@ -16,7 +16,7 @@
 
 <img src="rgba.PNG" alt="alt text" width="200"/>
 
-- As you can see only `background-color` get affected,text itself is not
+- As you can see only `background-color` get affected, text itself is not
 
 - Opacity is **property** which you give for element
     - Affect all elements inside given element, unlike **Alpha channel**
@@ -36,7 +36,7 @@
 
 - Opacity affects **whole** element
 
-- **Postion** tells  how `top`, `right`, `bottom`, `left` propertyes dictates
+- **Position** tells how `top`, `right`, `bottom`, `left` properties dictates
 
 - [Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
@@ -55,7 +55,7 @@
 <img src="static.PNG" alt="alt text" width="200"/>
 
 - Middle one is static one, **nothing changes**
-    - For example ` top: 100px ` has not effect if element is **static**
+    - For example ` top: 100px ` has no effect if element is **static**
 
 - `position:relative` set position relative where it would be, gets affected by `top`,`right`,`bottom`,`left`
 
@@ -86,8 +86,8 @@
 
 <img src="absoluteInProgress.PNG" alt="alt text" width="200"/>
 
-- 1. With **Absolute** element is hidden behind the middle element 
-    - Removes completly from document flow
+1. With **Absolute** element is hidden behind the middle element 
+    - Removes **completely** from document flow
 ```
 #absolute #middle {
     postion: absolute;
@@ -98,11 +98,11 @@
 
 <img src="absoluteInProgress2.PNG" alt="alt text" width="200"/>
 
-- It is positioned relative to its closest positioned ancestor, it is placed initial containing block
-    - Basicly means `<body>`
+- It is positioned relative to its closest **positioned** ancestor, it is placed initial containing block
+    - Basically means for example `<body>`
     - Positioned means, if element is anything other than **static** 
 
-- If in otherhand we positon parent element as `relative`, `absolute` behaves litle bit differently
+- If in other hand we position parent element as `relative`, `absolute` behaves title bit differently
 
 ```
 #absolute {
@@ -135,12 +135,22 @@
 
 <img src="Fixed.PNG" alt="alt text" width="200"/>
 
-- It will go all way to of element, it will stay there and its removed from document flow
+1. It will go all way to of element, it will stay there, and It's removed from document flow
 
 
 - You could make navigation bar using fixed values to stay on top
 
 <img src="navBarWithFixed.PNG" alt="alt text" width="500"/>
 
+2. Fixed to top, from initial containing block
 
-- Todo selvitä css sekoilu
+### some.css
+```
+
+transition: 3s; //For everyting, if this element has actions
+
+```
+
+<img src="transition.PNG" alt="alt text" width="500"/>
+
+- [Timing Function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
