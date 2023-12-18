@@ -55,7 +55,7 @@
 <img src="static.PNG" alt="alt text" width="200"/>
 
 - Middle one is static one, **nothing changes**
-    - For example ` top: 100px ` has not affected if element is **static**
+    - For example ` top: 100px ` has no effect if element is **static**
 
 - `position:relative` set position relative where it would be, gets affected by `top`,`right`,`bottom`,`left`
 
@@ -135,16 +135,14 @@
 
 <img src="Fixed.PNG" alt="alt text" width="200"/>
 
-- It will go all way to of element, it will stay there and its removed from document flow
+1. It will go all way to of element, it will stay there, and It's removed from document flow
 
 
 - You could make navigation bar using fixed values to stay on top
 
 <img src="navBarWithFixed.PNG" alt="alt text" width="500"/>
 
-
-- Todo selvitä css sekoilu
-
+2. Fixed to top, from initial containing block
 
 
 
@@ -219,3 +217,15 @@ div:nth-of-type(4){
 - Background image has many other properties
 
 - 
+=======
+### some.css
+```
+
+transition: 3s; //For everyting, if this element has actions
+
+```
+
+<img src="transition.PNG" alt="alt text" width="500"/>
+
+- [Timing Function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
+>>>>>>> a8db54c30969d5764061dcb5a7d5376b148c0163
