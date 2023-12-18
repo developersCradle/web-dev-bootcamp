@@ -144,3 +144,78 @@
 
 
 - Todo selvitä css sekoilu
+
+
+
+
+### Transitions
+
+
+- We can put transition to element
+
+style.css
+```
+
+.circle {
+    width:  300px;
+    height:  300px;
+    background-color: magenta;
+    transition: 3s;
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+```
+
+- [Easing function](https://easings.net/)
+
+- Easing functions in action
+
+```
+div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);;
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+}
+```
+- Different timing function [Transition Timing Function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
+
+- When making transition, we should be specific about our CSS transition. Not just `transition: all;`
+
+### Transforms
+ 
+- We can apply different operations  
+
+- If element is **block level element**, we can center it to using its left and right **margin** by setting **auto** `margin: 20px auto;`
+
+<img src="centeringElement.PNG" alt="alt text" width="500"/>
+
+1. Margin left, and margin right settled to **auto** in action for **block level action**
+
+- We can **Scale** our element [Scale](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale)
+
+- [Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin)
+
+- [Skew](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/skew)
+
+- Here is some basics transforms
+    - When needed, need to remind of this!
+
+<img src="basicOftransforms.PNG" alt="alt text" width="500"/>
+
+
+
+### Background todo jäin
+- Background image has many other properties
+
+- 
