@@ -99,42 +99,42 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
     * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%203/coding_exercise_favorite_exercise_2.html)
 * Section 5 Exercises
     * [Search Hack](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%205/redditHack.html)
-    * [formMarathon](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%205/marathonForm.html)
+    * [Form Marathon](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%205/marathonForm.html)
 * Section 7 Exercises
     * [09_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_9.html)
     * [10_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_10.html)
     * [11_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/Coding_Exercise_11.html)
-
+* Section 8 Exercises
+    * [12_Exercise](#)
+    * [Box Model](#)
 * Section 9 Exercises
     * [Translations and Transforms](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Translations%20and%20Transforms/index.html)
     * [Hover Button](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Hover/index.html)
     * [Photo Blog ~ Korea Gallery](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Korea%20Gallery/photoGrid.html)
-    * [Blog](#)
-    * [Box Model](#)
-    * [Fonts](#)    
-
+    * [Blog](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Blog/blog.html)
+    * [Fonts](http://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Fonts/fonts.html)    
 * Section 24 Exercises
-    * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
+    * [Pokemon Demo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
     * [59_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_59.html)
     * [60_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/coding_exercise_60.html) 
     * [Random Color](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2025/randomColor.html) **← Random Color game**
 * Section 28 Exercises
-    * [TVSearchApp](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **← TV Show Search App**
+    * [TV Search App](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2028/tvSearch.html)  **← TV Show Search App**
 * Section 32 Exercises
-    * [languageDedectionApp](#) **TODO selvitä heikki miten node appi saadaan juostua tai demonstroitua**
+    * [Language Dedection App](#) **TODO selvitä heikki miten node appi saadaan juostua tai demonstroitua**
 * Section 61 Exercises
-    * [RandomPokemonCard](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **← Random Pokémon card**
+    * [Random Pokemon Card](https://codesandbox.io/s/thirsty-allen-9yzhc4?file=/src/RandomPokemon.js)  **← Random Pokémon card**
 * Section 63 Exercises
-    * [GameSlotGame](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **← Potato fruit game**
+    * [Game Slot Game](https://codesandbox.io/s/trusting-star-5fk4ls?file=/src/App.js)  **← Potato fruit game**
 * Section 64 Exercises
-    * [ListExercise](https://codesandbox.io/s/compassionate-currying-vrr3m7?file=/src/App.js)
+    * [List Exercise](https://codesandbox.io/s/compassionate-currying-vrr3m7?file=/src/App.js)
 * Section 65 Exercises
-    * [ClickerExercise](https://codesandbox.io/s/hardcore-mahavira-y6kklm?file=/src/App.js)
+    * [Clicker Exercise](https://codesandbox.io/s/hardcore-mahavira-y6kklm?file=/src/App.js)
 * Section 66 Exercies
-    * [ClickColorBoxesGame](https://codesandbox.io/s/adoring-chaum-6sgl22?file=/src/App.js)
+    * [Click Color Boxes Game](https://codesandbox.io/s/adoring-chaum-6sgl22?file=/src/App.js)
 * Section 67 Exercies
-    * [ScoreKeeper](https://codesandbox.io/s/musing-snow-393l38?file=/src/App.js)
+    * [Score Keeper](https://codesandbox.io/s/musing-snow-393l38?file=/src/App.js)
 
 - Todo kts tehtävät ja lisäää    
 - Todo muuta tehtävien nimetydehnmukaiseksi ja katso nuoli ja boldaus
