@@ -25,7 +25,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 06](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%206) - CSS: The Very Basics
 - [x] [Section 07](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%207) - The World of CSS Selectors
 - [x] [Section 08](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%208) - The CSS Box Model
-- [ ] [Section 09](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%209) - Other Assorted Useful CSS Properties
+- [x] [Section 09](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%209) - Other Assorted Useful CSS Properties
 - [ ] [Section 10](#) - Responsive CSS & Flexbox
 - [ ] [Section 11](#) - Pricing Panel Project
 - [ ] [Section 12](#) - CSS Frameworks: Bootstrap
@@ -106,9 +106,12 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
     * [11_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/Coding_Exercise_11.html)
 
 * Section 9 Exercises
-    * [Translations and Transforms](#)
+    * [Translations and Transforms](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Translations%20and%20Transforms/index.html)
     * [Hover Button](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Hover/index.html)
-    * [Photo Blog ~ Korea Gallery](#)
+    * [Photo Blog ~ Korea Gallery](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Korea%20Gallery/photoGrid.html)
+    * [Blog](#)
+    * [Box Model](#)
+    * [Fonts](#)    
 
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
@@ -132,8 +135,6 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
     * [ClickColorBoxesGame](https://codesandbox.io/s/adoring-chaum-6sgl22?file=/src/App.js)
 * Section 67 Exercies
     * [ScoreKeeper](https://codesandbox.io/s/musing-snow-393l38?file=/src/App.js)
-    
-
 
 - Todo kts tehtävät ja lisäää    
 - Todo muuta tehtävien nimetydehnmukaiseksi ja katso nuoli ja boldaus
@@ -146,10 +147,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 
 
 
-
-
 FROM OLD COURSE FROM HERE ONE, RawGit got deprecated, some links migrated to HTML preview and work
-
 
 ## The Major Projects
 * Section 03 Exercises

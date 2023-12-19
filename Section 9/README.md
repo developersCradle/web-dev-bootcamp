@@ -243,13 +243,19 @@ div:nth-of-type(4){
 
 ```
 img {
-	
 	width: 30%;  
 	float: left; 
 	/*float takes out flow of document. We got rid of white spacing which browser adder for uss*/
 	/* 10/6= 1.66 */
-	margin: 1.66%;
+	<!-- margin: 1.66%; -->
+    //or we can use calc()
+    margin: calc(10%/6)
 }	
 ```
 
-- Nowadays, there is easier ways to do this. Example **Flex box**
+- Nowadays, there are easier ways to do this. Example **Flex box**
+
+<img src="whiteSpace.PNG" alt="alt text" width="500"/>
+
+1. You might put like such, but in HTML whitespace characters are placed **between!** This may mess things up
+
