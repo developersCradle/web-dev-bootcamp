@@ -148,10 +148,11 @@
 
 ### Transitions
 
+- We can apply different operations to elements
 
-- We can put transition to element
+<img src="transition.PNG" alt="alt text" width="500"/>
 
-style.css
+Style.css
 ```
 
 .circle {
@@ -192,7 +193,7 @@ div:nth-of-type(4){
 
 ### Transforms
  
-- We can apply different operations  
+- We can apply different operations to elements
 
 - If element is **block level element**, we can center it to using its left and right **margin** by setting **auto** `margin: 20px auto;`
 
@@ -211,21 +212,7 @@ div:nth-of-type(4){
 
 <img src="basicOftransforms.PNG" alt="alt text" width="500"/>
 
-
-
 ### Background todo jäin
+
 - Background image has many other properties
 
-- 
-=======
-### some.css
-```
-
-transition: 3s; //For everyting, if this element has actions
-
-```
-
-<img src="transition.PNG" alt="alt text" width="500"/>
-
-- [Timing Function](https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function)
->>>>>>> a8db54c30969d5764061dcb5a7d5376b148c0163
