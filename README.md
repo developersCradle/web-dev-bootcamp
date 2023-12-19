@@ -104,6 +104,12 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
     * [09_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_9.html)
     * [10_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/coding_exercise_10.html)
     * [11_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%207/Coding_Exercise_11.html)
+
+* Section 9 Exercises
+    * [Translations and Transforms](#)
+    * [Hover Button](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%209/Hover/index.html)
+    * [Photo Blog ~ Korea Gallery](#)
+
 * Section 24 Exercises
     * [PokemonDemo](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Section%2024/pokemon.html)
 * Section 25 Exercises
@@ -159,28 +165,21 @@ FROM OLD COURSE FROM HERE ONE, RawGit got deprecated, some links migrated to HTM
 
 * Section 06 Exercises
     * [1_Exercise](https://cdn.rawgit.com/developersCradle/MyProjects/a7c4e76a/WebDevBootcamp/Web%20Developer%20Bootcamp/06%20Intermediate%20CSS/board.html)
-    * [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/photoGrid.html) **<-- Small Gallery** (todo add opening of image)
     * [3_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/06%20Intermediate%20CSS/blog.html) **<-- Simple blog**
 
 * Section 07 Exercises
 	* [1_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/gallery.html) **<-- Image gallery using Bootstrap**
 	* [2_Exercise](https://htmlpreview.github.io/?https://github.com/developersCradle/web-dev-bootcamp/blob/master/Archive/07%20Bootstrap/index.html) **<-- Startup page with Bootstrap**
 
-
 * Section 08 Exercises
     * [1_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/08%20Introduction%20to%20JavaScript/stalker.html)
     * [2_Exercise](https://rawgit.com/developersCradle/MyProjects/master/WebDevBootcamp/Web%20Developer%20Bootcamp/08%20Introduction%20to%20JavaScript/calc.html)
 
-* Section 09 Exercises
-    * [1_Exercise](#)
 
 
-
-    
 ## Files
-*   [Slides](https://webdev.slides.com/coltsteele/)
 
-
+* [Slides](https://webdev.slides.com/coltsteele/)
 
 IS needed?
 

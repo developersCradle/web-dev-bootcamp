@@ -212,7 +212,44 @@ div:nth-of-type(4){
 
 <img src="basicOftransforms.PNG" alt="alt text" width="500"/>
 
-### Background todo jäin
+### Background
 
-- Background image has many other properties
+- Background image has many other properties. Some popular and useful properties
 
+## Background-image
+
+- [background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+
+## Background-size 
+
+- [background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+
+## Background-repeat
+
+- [background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+
+### Fonts
+
+[Google Fonts](https://fonts.google.com/)
+
+- If scale down UI, elements scale in same time. This means elements are not using fixed numbers like `200px`
+
+<img src="flexBox.PNG" alt="alt text" width="500"/>
+
+
+1. Flexbox takes what is left in (1.) and distributes it between elements equally
+
+- This type of CSS, where lots of math is included used to be very common!
+
+```
+img {
+	
+	width: 30%;  
+	float: left; 
+	/*float takes out flow of document. We got rid of white spacing which browser adder for uss*/
+	/* 10/6= 1.66 */
+	margin: 1.66%;
+}	
+```
+
+- Nowadays, there is easier ways to do this. Example **Flex box**
