@@ -26,7 +26,7 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - [x] [Section 07](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%207) - The World of CSS Selectors
 - [x] [Section 08](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%208) - The CSS Box Model
 - [x] [Section 09](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%209) - Other Assorted Useful CSS Properties
-- [ ] [Section 10](#) - Responsive CSS & Flexbox
+- [ ] [Section 10](https://github.com/developersCradle/web-dev-bootcamp/tree/master/Section%2010) - Responsive CSS & Flexbox
 - [ ] [Section 11](#) - Pricing Panel Project
 - [ ] [Section 12](#) - CSS Frameworks: Bootstrap
 - [ ] [Section 13](#) - OPTIONAL Museum Of Candy Project
@@ -142,7 +142,6 @@ Official answers [here](https://github.com/Colt/TheWebDeveloperBootcampSolutions
 - TODO katso tehtävät lävitse listtaan
 - TODO typot ja formatointi. Katso tätä systemaattisesti eteenpäin: 1,2,3,4,5
 - TODO selvitä ja siivoa node_modules pois
-- Todo Kaiken tämän jälkeen tee github pages
 
 
 
